@@ -22,9 +22,9 @@ Route::get('/', function () {
 //     return view('digitalgarage');
 // });
 
-// Route::get('/sua-garagem', function () {
-//     return view('sua-garagem');
-// });
+Route::get('/minha-garagem', function () {
+    return view('minha-garagem');
+})->middleware(['auth', 'verified']);
 
 // Route::get('/duele', function () {
 //     return view('duele');
