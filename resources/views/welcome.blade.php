@@ -38,16 +38,17 @@
 
                 <div class="mt-16">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+
                         <a class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                             <div>
-                                <div class="h-20 w-20 dark:bg-red-800/20 flex items-center justify-center rounded-full">
+                                <div class="h-20 w-20 flex items-center justify-center rounded-full">
                                     <img src="{{URL::asset('/image/dg.duels.png')}}" alt="profile Pic" height="160" width="160">
                                 </div>
 
                                 <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. Duels</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Plataforma de duelos de perfis automotivos com ranqueamento mundial e eventos de spots diários. Crie sua garagem, aumente sua coleção de spots e monetize seu perfil.
+                                Plataforma de duelos de perfis automotivos com ranqueamento mundial e eventos de spots diários. Crie sua garagem, aumente sua coleção de spots e monetize seu perfil.
                                 </p>
                             </div>
 
@@ -58,14 +59,14 @@
 
                         <a class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                             <div>
-                                <div class="h-20 w-20 dark:bg-red-800/20 flex items-center justify-center rounded-full">
+                                <div class="h-20 w-20 flex items-center justify-center rounded-full">
                                     <img src="{{URL::asset('/image/dg.instastore.png')}}" alt="profile Pic" height="160" width="160">
                                 </div>
 
                                 <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. InstaStore</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Monetize seu perfil automotivo do Instagram ao receber uma loja de produtos dedicados ao seu projeto automotivo. Cuidamos de toda infraestrutura de vendas, preocupe-se apenas em crescer seu Instagram Automotivo e faturar.
+                                    Monetize seu perfil automotivo do Instagram ao receber uma loja de produtos dedicados ao seu projeto automotivo. Cuidamos de toda infraestrutura de vendas, preocupe-se apenas em crescer seu Instagram e faturar.
                                 </p>
                             </div>
 
@@ -76,7 +77,7 @@
 
                         <a class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                             <div>
-                                <div class="h-20 w-20 dark:bg-red-800/20 flex items-center justify-center rounded-full">
+                                <div class="h-20 w-20 flex items-center justify-center rounded-full">
                                     <img src="{{URL::asset('/image/dg.store.png')}}" alt="profile Pic" height="160" width="160">
                                 </div>
 
@@ -94,7 +95,7 @@
 
                         <a class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                             <div>
-                                <div class="h-20 w-20 dark:bg-red-800/20 flex items-center justify-center rounded-full">
+                                <div class="h-20 w-20 flex items-center justify-center rounded-full">
                                     <img src="{{URL::asset('/image/dg.e-Mistura.png')}}" alt="profile Pic" height="160" width="160">
                                 </div>
 
@@ -112,7 +113,7 @@
 
                         <a class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                             <div>
-                                <div class="h-20 w-20 dark:bg-red-800/20 flex items-center justify-center rounded-full">
+                                <div class="h-20 w-20 flex items-center justify-center rounded-full">
                                     <img src="{{URL::asset('/image/dg.devbannerlinkedin.png')}}" alt="profile Pic" height="160" width="160">
                                 </div>
 
@@ -130,7 +131,7 @@
 
                         <a class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                             <div>
-                                <div class="h-20 w-20 dark:bg-red-800/20 flex items-center justify-center rounded-full">
+                                <div class="h-20 w-20 flex items-center justify-center rounded-full">
                                     <img src="{{URL::asset('/image/dg.softwarehouse.png')}}" alt="profile Pic" height="160" width="160">
                                 </div>
 
