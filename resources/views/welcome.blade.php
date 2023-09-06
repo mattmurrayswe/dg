@@ -49,7 +49,7 @@
                                 <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. Duels</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                Plataforma de duelos de perfis automotivos com ranqueamento mundial e eventos de spots diários. Crie sua garagem, aumente sua coleção de spots e monetize seu perfil.
+                                    Plataforma de duelos de perfis automotivos com ranqueamento mundial e eventos de spots diários. Crie sua garagem, aumente sua coleção de spots e monetize seu perfil.
                                 </p>
                             </div>
 
@@ -67,7 +67,7 @@
                                 <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. InstaStore</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Monetize seu perfil automotivo do Instagram ao receber uma loja de produtos dedicados ao seu projeto automotivo. Cuidamos de toda infraestrutura de vendas, preocupe-se apenas em crescer seu Instagram e faturar.
+                                    Monetize seu Instagram ao receber uma loja de produtos dedicados ao seu projeto automotivo. Cuidamos de toda infraestrutura de vendas, preocupe-se apenas em crescer seu Instagram e faturar.
                                 </p>
                             </div>
 
@@ -85,7 +85,7 @@
                                 <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. Store</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Nossa loja de produtos para GearHeads e Devs. Decorações, canecas, camisetas e diversos acessórios. +80 unidades vendidas!
+                                    Quadros decorativos, postêres, canecas, camisetas e diversos acessórios. Nossa loja de produtos para GearHeads e Devs. +80 unidades vendidas!
                                 </p>
                             </div>
 
@@ -121,7 +121,7 @@
                                 <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. DevBannerLinkedin</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Você é Dev? Destaque-se nos processos seletivos mais disputados do mercado ao utilizar nosso serviço de geração de banner para Linkedin. Nosso produto é o pioneiro da categoria e o que possui mais unidades vendidas.
+                                Você é Dev? Destaque-se nos processos seletivos mais disputados do mercado ao utilizar nosso serviço de geração de banner para Linkedin. Nosso produto é o pioneiro da categoria e o que possui mais unidades vendidas.
                                 </p>
                             </div>
 
