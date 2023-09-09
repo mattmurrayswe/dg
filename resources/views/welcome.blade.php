@@ -34,7 +34,7 @@
 
             <div class="max-w-7xl mx-auto p-6 lg:p-8">
                 <div class="flex justify-center mt-16">
-                    <img src="{{URL::asset('/image/dg-fasten.png')}}" alt="profile Pic" height="160" width="160">
+                    <img src="{{URL::asset('/image/dg-fasten.png')}}" alt="profile Pic" height="200" width="200">
                 </div>
 
                 <div class="mt-16">
