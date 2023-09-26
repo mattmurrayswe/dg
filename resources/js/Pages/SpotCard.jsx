@@ -12,8 +12,8 @@ export default function SpotCard({ imgPath }) {
   `;
 
   const cardStyle = {
-    width: 345,
     boxShadow,
+    height: '530px',
     borderRadius: '10px',
     padding: '20px',
     color: 'white',

@@ -23,18 +23,23 @@ export default function Spots({}) {
             <h1 className="text-white">
                 Your Collection
             </h1>
-            <div className='flex'>
+            <div className='grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1'>
                 <SpotCard imgPath={imagePath1}></SpotCard>
                 <SpotCard imgPath={imagePath2}></SpotCard>
-                {/* <SpotCard imgPath={imagePath3}></SpotCard>
-                <SpotCard imgPath={imagePath4}></SpotCard> */}
+                <SpotCard imgPath={imagePath1}></SpotCard>
+                <SpotCard imgPath={imagePath2}></SpotCard>
+                <SpotCard imgPath={imagePath1}></SpotCard>
+                <SpotCard imgPath={imagePath2}></SpotCard>
+                <SpotCard imgPath={imagePath1}></SpotCard>
+                <SpotCard imgPath={imagePath2}></SpotCard>
+                <SpotCard imgPath={imagePath1}></SpotCard>
+                <SpotCard imgPath={imagePath2}></SpotCard>
+                <SpotCard imgPath={imagePath1}></SpotCard>
+                <SpotCard imgPath={imagePath2}></SpotCard>
+                <SpotCard imgPath={imagePath1}></SpotCard>
+                <SpotCard imgPath={imagePath2}></SpotCard>
             </div>
-            {/* <div className='flex'>
-                <SpotCard imgPath={imagePath4}></SpotCard>
-                <SpotCard imgPath={imagePath3}></SpotCard>
-                <SpotCard imgPath={imagePath2}></SpotCard>
-                <SpotCard imgPath={imagePath1}></SpotCard>
-            </div> */}
+
         </div>
     );
 }
