@@ -31,7 +31,6 @@ export default function Spots({}) {
                 <SpotCard imgPath={s8}></SpotCard>
                 <SpotCard imgPath={s9}></SpotCard>
             </div>
-
         </div>
     );
 }

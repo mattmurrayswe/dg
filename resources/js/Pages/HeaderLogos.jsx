@@ -8,6 +8,7 @@ export default function HeaderLogos({ }) {
     return (
         <div className="flex items-center justify-center">
             <img src={dgFastenComBr} alt="" width="130" className='mx-2' />
+            <p className='text-white mx-2 text-[30px] font-bold'>|</p>
             <img src={dgSpots} alt="" width="70" className='mx-2' />
         </div>
     );
