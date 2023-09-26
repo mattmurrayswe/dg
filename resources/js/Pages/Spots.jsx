@@ -15,21 +15,21 @@ export default function Spots({}) {
     const s9 = '/image/spots/pamplona/s9.PNG';
 
     return (
-        <div className='bg-black pt-7'>
+        <div className='bg-black pt-7 px-10'>
             <HeaderLogos/>
             <h1 className="text-white">
                 Your Collection
             </h1>
             <div className='grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1'>
-                <SpotCard imgPath={s1}></SpotCard>
-                <SpotCard imgPath={s2}></SpotCard>
-                <SpotCard imgPath={s3}></SpotCard>
-                <SpotCard imgPath={s4}></SpotCard>
-                <SpotCard imgPath={s5}></SpotCard>
-                <SpotCard imgPath={s6}></SpotCard>
-                <SpotCard imgPath={s7}></SpotCard>
-                <SpotCard imgPath={s8}></SpotCard>
-                <SpotCard imgPath={s9}></SpotCard>
+                <SpotCard imgPath={s1} shotType="Frontshot Lateral Esquerda" brand="Dodge" model="Hellcat" year="2021" color="Black"></SpotCard>
+                <SpotCard imgPath={s4} shotType="Backshot Lateral Esquerda" brand="Lamborghini" model="Huracan" year="2022"></SpotCard>
+                <SpotCard imgPath={s8} shotType="Frontshot Lateral Esquerda" brand="Ferrari" model="SF90" year="2022"></SpotCard>
+                <SpotCard imgPath={s6} shotType="Backshot Lateral Esquerda" brand="Lamborghini" model="Aventador" year="2021"></SpotCard>
+                <SpotCard imgPath={s7} shotType="Backshot Lateral Esquerda" brand="Jaguar" model="F-Type" year="2018"></SpotCard>
+                <SpotCard imgPath={s9} shotType="Frontshot Lateral Direita" brand="Ferrari" model="812" year="2019"></SpotCard>
+                <SpotCard imgPath={s5} shotType="Frontshot Lateral Esquerda" brand="Lamborghini" model="Huracan" year="2022"></SpotCard>
+                <SpotCard imgPath={s2} shotType="Backshot Lateral Direita" brand="Porsche" model="GT3" year="2024" color="Red"></SpotCard>
+                <SpotCard imgPath={s3} shotType="Frontshot Lateral Direita" brand="Porsche" model="911" year="2019" color="Grey"></SpotCard>
             </div>
         </div>
     );

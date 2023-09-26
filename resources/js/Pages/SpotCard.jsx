@@ -6,7 +6,13 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-export default function SpotCard({ imgPath }) {
+export default function SpotCard({
+  imgPath,
+  brand,
+  model,
+  year,
+  color
+}) {
   const boxShadow = ` 
     0px 0px 10px 5px rgba(240, 6, 6, 0.5), 0px 0px 10px 10px rgb(43 78 174 / 50%)
   `;
@@ -28,21 +34,21 @@ export default function SpotCard({ imgPath }) {
         </Typography>
       </CardContent>
       <CardMedia sx={{ height: 260 }} image={imgPath} title="green iguana" />
-      <CardContent>
+      <CardContent sx={{ paddingX: 0.5 }}>
         <Typography gutterBottom variant="h5" component="div">
-          Mini
+          {model}
         </Typography>
         <Typography variant="body2" color="white">
-          Mini Cooper S
+          {brand + ' ' + model}
         </Typography>
         <Typography variant="body2" color="white">
-          2015
+          {year}
         </Typography>
         <Typography variant="body2" color="white">
-          Thunder Gray Metálico
+          {color}
         </Typography>
       </CardContent>
-      <CardActions>
+      <CardActions sx={{ paddingX: 0.5 }}>
         <Button variant="outlined" size="small">
           Duel
         </Button>
