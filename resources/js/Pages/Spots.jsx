@@ -1,149 +1,40 @@
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+import SpotCard from './SpotCard';
 
 export default function Spots({}) {
 
-    const imagePath = '/image/spots/mini-4.jpg';
+    const imagePath1 = '/image/spots/mini-1.jpg';
+    const imagePath2 = '/image/spots/mini-2.jpg';
+    const imagePath3 = '/image/spots/mini-3.jpg';
+    const imagePath4 = '/image/spots/mini-4.jpg';
+    const dgFasten = '/image/dg-fasten.png';
+    const dgSpots = '/image/logos-font-fasten/spots.png';
 
     return (
-        <>
-            <Card sx={{ maxWidth: 345 }}>
-                <CardMedia
-                    sx={{ height: 140 }}
-                    image={imagePath}
-                    title="green iguana"
-                />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                        Mini
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        Mini Cooper S
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        2015
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        Thunder Gray Metálico
-                    </Typography>
-                </CardContent>
-                <CardActions>
-                    <Button variant="outlined" size="small">Duel</Button>
-                    <Button size="small">Share</Button>
-                </CardActions>
-            </Card>
-            <Card sx={{ maxWidth: 345 }}>
-                <CardMedia
-                    sx={{ height: 140 }}
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    title="green iguana"
-                />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                        Mini
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        Mini Cooper S
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        2015
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        Thunder Gray Metálico
-                    </Typography>
-                </CardContent>
-                <CardActions>
-                    <Button variant="outlined" size="small">Duel</Button>
-                    <Button size="small">Share</Button>
-                </CardActions>
-            </Card>
-            <Card sx={{ maxWidth: 345 }}>
-                <CardMedia
-                    sx={{ height: 140 }}
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    title="green iguana"
-                />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                        Mini
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        Mini Cooper S
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        2015
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        Thunder Gray Metálico
-                    </Typography>
-                </CardContent>
-                <CardActions>
-                    <Button variant="outlined" size="small">Duel</Button>
-                    <Button size="small">Share</Button>
-                </CardActions>
-            </Card>
-            <Card sx={{ maxWidth: 345 }}>
-                <CardMedia
-                    sx={{ height: 140 }}
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    title="green iguana"
-                />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                        Mini
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        Mini Cooper S
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        2015
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        Thunder Gray Metálico
-                    </Typography>
-                </CardContent>
-                <CardActions>
-                    <Button variant="outlined" size="small">Duel</Button>
-                    <Button size="small">Share</Button>
-                </CardActions>
-            </Card>
-            <Card sx={{ maxWidth: 345 }}>
-                <CardMedia
-                    sx={{ height: 140 }}
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    title="green iguana"
-                />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                        Mini
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        Mini Cooper S
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        2015
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        Thunder Gray Metálico
-                    </Typography>
-                </CardContent>
-                <CardActions>
-                    <Button variant="outlined" size="small">Duel</Button>
-                    <Button size="small">Share</Button>
-                </CardActions>
-            </Card>
-            <div className='p-5 bg-gray-800 text-white'>
-                <div className='bg-gray-600 rounded-lg border border-gray-500 bg-opacity-75'>
-                    <p>@minitrovaostg2</p>
-                    <p>Mini Cooper S</p>
-                    <p>3/10.000</p>
+        <div className='bg-black'>
+            <div className="flex justify-center align-middle">
+                <div className="align-middle">
+                    <img src={dgFasten} alt="" height="200" width="200" />
+                </div>
+                <div>
+                    <img src={dgSpots} alt="" height="150" width="150" />
                 </div>
             </div>
-        </>
+            <h1 className="text-white">
+                Your Collection
+            </h1>
+            <div className='flex'>
+                <SpotCard imgPath={imagePath1}></SpotCard>
+                <SpotCard imgPath={imagePath2}></SpotCard>
+                {/* <SpotCard imgPath={imagePath3}></SpotCard>
+                <SpotCard imgPath={imagePath4}></SpotCard> */}
+            </div>
+            {/* <div className='flex'>
+                <SpotCard imgPath={imagePath4}></SpotCard>
+                <SpotCard imgPath={imagePath3}></SpotCard>
+                <SpotCard imgPath={imagePath2}></SpotCard>
+                <SpotCard imgPath={imagePath1}></SpotCard>
+            </div> */}
+        </div>
     );
 }
