@@ -13,11 +13,29 @@ export default function SpotCard({
   brand,
   model,
   year,
-  color
+  rarity
 }) {
-  const boxShadow = ` 
-    0px 0px 10px 5px rgba(240, 6, 6, 0.5), 0px 0px 10px 10px rgb(43 78 174 / 50%)
-  `;
+
+  const calculateBoxShadow = (rarity) => {
+    switch (rarity) {
+      case 'common':
+        return `0px 0px 10px 5px rgba(240, 6, 6, 0.5), 0px 0px 10px 10px rgb(43 78 174 / 50%)`;
+      case 'uncommon':
+        return `0px 0px 10px 5px grey`; // White boxShadow for 'uncommon'
+      case 'rare':
+        return `0px 0px 10px 5px rgb(6 164 240 / 50%), 0px 0px 10px 10px rgb(43 78 174 / 50%)`;
+      case 'epic':
+        return `0px 0px 10px 5px rgb(240 6 166 / 62%), 0px 0px 10px 10px rgb(43 78 174 / 50%)`;
+      case 'legendary':
+        return `1px 0px 10px 5px rgb(240 129 6 / 34%), 0px 0px 10px 10px rgb(174 100 43 / 50%)`;
+      default:
+        return `default-box-shadow-value-here`;
+    }
+  };
+
+  // Call the method to get the boxShadow value
+  const boxShadow = calculateBoxShadow(rarity);
+
 
   const cardStyle = {
     boxShadow,
@@ -50,17 +68,14 @@ export default function SpotCard({
       </CardContent>
       <CardMedia sx={{ height: 260 }} image={imgPath} title="green iguana" />
       <CardContent sx={ { paddingX: 0.5 }}>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h6" component="div">
           {model}
         </Typography>
         <Typography variant="body2" color="white">
-          {brand + ' ' + model}
+          {brand}
         </Typography>
         <Typography variant="body2" color="white">
           {year}
-        </Typography>
-        <Typography variant="body2" color="white">
-          {color}
         </Typography>
       </CardContent>
       <CardActions sx={{ paddingX: 0.5 }}>

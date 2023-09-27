@@ -26,7 +26,7 @@ export default function SpotCardAdd({ }) {
 
   return (
     <Card className="m-5 bg-black" sx={cardStyle}>
-      <CardContent className='flex justify-center items-center h-full text-[150px] text-gray-900'>
+      <CardContent className='flex justify-center items-center h-full text-[150px] text-gray-500'>
         +
       </CardContent>
     </Card>
