@@ -8,6 +8,8 @@ import Typography from '@mui/material/Typography';
 
 export default function SpotCard({
   imgPath,
+  profImg,
+  profName,
   brand,
   model,
   year,
@@ -28,13 +30,26 @@ export default function SpotCard({
 
   return (
     <Card className="m-5 bg-black" sx={cardStyle}>
-      <CardContent>
-        <Typography variant="body2" color="white">
-          @ps_carspotter
-        </Typography>
+      <CardContent sx={ { paddingX: 0 }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'start' }}>
+          <img
+            className="mr-2"
+            src={profImg} // Replace with the actual image URL
+            alt="Spotter's Profile"
+            style={{
+              width: '40px', // Adjust the size as needed
+              height: '40px', // Adjust the size as needed
+              borderRadius: '50%', // Makes the image rounded
+              border: '1px solid gray', // Add a grey border
+            }}
+          />
+          <Typography variant="body2" color="white">
+          {profName}
+          </Typography>
+        </div>
       </CardContent>
       <CardMedia sx={{ height: 260 }} image={imgPath} title="green iguana" />
-      <CardContent sx={{ paddingX: 0.5 }}>
+      <CardContent sx={ { paddingX: 0.5 }}>
         <Typography gutterBottom variant="h5" component="div">
           {model}
         </Typography>
