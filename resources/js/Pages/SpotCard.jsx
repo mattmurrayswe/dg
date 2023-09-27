@@ -33,7 +33,6 @@ export default function SpotCard({
     }
   };
 
-  // Call the method to get the boxShadow value
   const boxShadow = calculateBoxShadow(rarity);
 
 
