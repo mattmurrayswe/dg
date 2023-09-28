@@ -2,6 +2,7 @@ import * as React from 'react';
 import SpotCard from './SpotCard';
 import HeaderLogos from './HeaderLogos';
 import SpotCardAdd from './SpotCardAdd';
+import PageTitle from './PageTitle';
 
 export default function Spots({}) {
 
@@ -21,9 +22,7 @@ export default function Spots({}) {
     return (
         <div className='bg-black pt-14 px-10'>
             <HeaderLogos/>
-            {/* <h1 className="text-white">
-                Your Collection
-            </h1> */}
+            {/* <PageTitle/> */}
             <div className='grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 mt-14'>
                 <SpotCard imgPath={s1} profImg={sp1} profName="p.sc_caspotter" shotType="Frontshot Lateral Esquerda" brand="Dodge" model="Demon Jailbreak" year="2021" rarity="legendary"></SpotCard>
                 <SpotCard imgPath={s4} profImg={sp2} profName="p4mplon4" shotType="Backshot Lateral Esquerda" brand="Lamborghini" model="Huracan Performante" year="2022" rarity="rare"></SpotCard>
