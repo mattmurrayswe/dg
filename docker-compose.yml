@@ -12,8 +12,8 @@ services:
         depends_on:
         - laravel.test
         environment:
-            - WWWGROUP: 'www-data'
-            - WWWUSER: 'www-data'
+            WWWGROUP: 'www-data'
+            WWWUSER: 'www-data'
         networks:
         - sail
     laravel.test:
