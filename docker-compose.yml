@@ -8,7 +8,7 @@ services:
         volumes:
         - ./nginx.conf:/etc/nginx/nginx.conf
         - /etc/letsencrypt/live/digitalgarage.com.br/fullchain.pem:/etc/letsencrypt/live/digitalgarage.com.br/fullchain.pem
-        - /etc/letsencrypt/live/digitalgarage.com.br/prickey.pem:/etc/letsencrypt/live/digitalgarage.com.br/prickey.pem
+        - /etc/letsencrypt/live/digitalgarage.com.br/privkey.pem:/etc/letsencrypt/live/digitalgarage.com.br/privkey.pem
         depends_on:
         - laravel.test
         networks:
