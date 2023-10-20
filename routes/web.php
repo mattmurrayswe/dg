@@ -29,9 +29,9 @@ Route::get('/laravel', function () {
     ]);
 });
 
-Route::get('/spots', function () {
-    return Inertia::render('Spots');
-});
+Route::get('/duels', function () {
+    return Inertia::render('Duels');
+})->name('duels');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');

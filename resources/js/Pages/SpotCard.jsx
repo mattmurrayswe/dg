@@ -21,13 +21,13 @@ export default function SpotCard({
       case 'common':
         return `0px 0px 10px 5px rgba(240, 6, 6, 0.5), 0px 0px 10px 10px rgb(43 78 174 / 50%)`;
       case 'uncommon':
-        return `0px 0px 10px 5px grey`; // White boxShadow for 'uncommon'
+        return `0px 0px 10px 5px #cccccce6`; // White boxShadow for 'uncommon'
       case 'rare':
         return `0px 0px 10px 5px rgb(6 164 240 / 50%), 0px 0px 10px 10px rgb(43 78 174 / 50%)`;
       case 'epic':
         return `0px 0px 10px 5px rgb(240 6 166 / 62%), 0px 0px 10px 10px rgb(43 78 174 / 50%)`;
       case 'legendary':
-        return `1px 0px 10px 5px rgb(240 129 6 / 34%), 0px 0px 10px 10px rgb(174 100 43 / 50%)`;
+        return `1px 0px 10px 5px rgb(240 129 6 / 78%), 0px 0px 10px 10px rgb(174 100 43 / 50%)`;
       default:
         return `default-box-shadow-value-here`;
     }

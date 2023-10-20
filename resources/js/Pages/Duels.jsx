@@ -1,10 +1,12 @@
-import * as React from 'react';
+
+import React, { useEffect } from 'react';
+
 import SpotCard from './SpotCard';
 import HeaderLogos from './HeaderLogos';
 import SpotCardAdd from './SpotCardAdd';
-import PageTitle from './PageTitle';
+import { Head } from '@inertiajs/react';
 
-export default function Spots({}) {
+export default function Duels({}) {
 
     const s1 = '/image/spots/pamplona/s1.PNG';
     const s2 = '/image/spots/pamplona/s2.PNG';
@@ -21,6 +23,7 @@ export default function Spots({}) {
 
     return (
         <div className='bg-black pt-14 px-10'>
+            <Head title="Duels" />
             <HeaderLogos/>
             {/* <PageTitle/> */}
             <div className='grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 mt-14'>
