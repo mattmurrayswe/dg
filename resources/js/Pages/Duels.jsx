@@ -23,7 +23,9 @@ export default function Duels({}) {
 
     return (
         <div className='bg-black pt-14 px-10'>
-            <Head title="Duels" />
+            <Head title="dg - Duels">
+                <link rel="icon" href="/image/logos-font-fasten/duels.png" type="image/x-icon" />
+            </Head>
             <HeaderLogos/>
             {/* <PageTitle/> */}
             <div className='grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 mt-14'>
