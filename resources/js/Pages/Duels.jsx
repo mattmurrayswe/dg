@@ -22,13 +22,13 @@ export default function Duels({}) {
     const sp2 = '/image/spotters/s2.jpeg';
 
     return (
-        <div className='bg-black pt-14 px-10'>
+        <div className='bg-black pt-14 2xl:px-10'>
             <Head title="dg - Duels">
                 <link rel="icon" href="/image/logos-font-fasten/duels.png" type="image/x-icon" />
             </Head>
             <HeaderLogos/>
             {/* <PageTitle/> */}
-            <div className='grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 mt-14'>
+            <div className='flex flex-wrap justify-center mt-14'>
                 <SpotCard imgPath={s1} profImg={sp1} profName="p.sc_caspotter" shotType="Frontshot Lateral Esquerda" brand="Dodge" model="Demon Jailbreak" year="2021" rarity="legendary"></SpotCard>
                 <SpotCard imgPath={s4} profImg={sp2} profName="p4mplon4" shotType="Backshot Lateral Esquerda" brand="Lamborghini" model="Huracan Performante" year="2022" rarity="rare"></SpotCard>
                 <SpotCard imgPath={s8} profImg={sp1} profName="cwb_spots" shotType="Frontshot Lateral Esquerda" brand="Ferrari" model="488 Pista" year="2022" rarity="epic"></SpotCard>

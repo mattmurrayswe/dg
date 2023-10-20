@@ -6,6 +6,7 @@ export default function SpotCardAdd({ }) {
 
   const cardStyle = {
     height: '530px',
+    width: '360px',
     borderRadius: '10px',
     padding: '20px',
     color: 'white',

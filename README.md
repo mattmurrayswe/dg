@@ -4,4 +4,7 @@ docker-compose exec laravel.test bash
 
 npm run dev
 
-php vendor/bin/vapor deploy production
+Deploy:
+git pull no ec2
+
+mv /public/hot /public/backup-hot 

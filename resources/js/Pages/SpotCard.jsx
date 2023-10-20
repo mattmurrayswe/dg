@@ -39,6 +39,7 @@ export default function SpotCard({
   const cardStyle = {
     boxShadow,
     height: '530px',
+    width: '360px',
     borderRadius: '10px',
     padding: '20px',
     color: 'white',
