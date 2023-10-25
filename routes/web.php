@@ -29,9 +29,13 @@ Route::get('/laravel', function () {
     ]);
 });
 
-Route::get('/duels', function () {
-    return Inertia::render('Duels');
-})->name('duels');
+Route::get('/duels/deck', function () {
+    return Inertia::render('Duels/Deck');
+})->name('deck');
+
+Route::get('/duels/signup', function () {
+    return Inertia::render('Duels/Signup');
+})->name('signup');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
