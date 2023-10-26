@@ -30,7 +30,7 @@ export default function Deck({}) {
                     <link rel="icon" href="/image/logos-font-fasten/duels.png" type="image/x-icon" />
                 </Head>
                 <HeaderLogos/>
-                <div className='flex flex-wrap justify-center mt-14'>
+                <div className='flex flex-wrap justify-center'>
                     <SpotCard imgPath={s1} profImg={sp1} profName="p.sc_caspotter" shotType="Frontshot Lateral Esquerda" brand="Dodge" model="Demon Jailbreak" year="2021" rarity="legendary"></SpotCard>
                     <SpotCard imgPath={s4} profImg={sp2} profName="p4mplon4" shotType="Backshot Lateral Esquerda" brand="Lamborghini" model="Huracan Performante" year="2022" rarity="rare"></SpotCard>
                     <SpotCard imgPath={s8} profImg={sp1} profName="cwb_spots" shotType="Frontshot Lateral Esquerda" brand="Ferrari" model="488 Pista" year="2022" rarity="epic"></SpotCard>

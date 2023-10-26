@@ -37,6 +37,10 @@ Route::get('/duels/signup', function () {
     return Inertia::render('Duels/Signup');
 })->name('signup');
 
+Route::get('/events/organizer/signup', function () {
+    return Inertia::render('Events/Organizer/Signup');
+})->name('events-organizer-signup');
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
