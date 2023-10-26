@@ -2,12 +2,12 @@
 import HeaderLogos from '../../Duels/HeaderLogos';
 import { Head } from '@inertiajs/react';
 import * as React from 'react';
-import TextField from '@mui/material/TextField';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Button, CssBaseline, Typography } from '@mui/material';
 import Evento from './Evento';
 import Organizador from './Organizador';
 import Ingressos from './Ingressos';
+import Footer from './Footer';
 
 export default function Signup({ }) {
 
@@ -21,7 +21,7 @@ export default function Signup({ }) {
         <div>
             <CssBaseline />
             <div className='bg-black pt-14 min-h-screen px-2'>
-                <Head title="dg - Duels">
+                <Head title="dg - Events">
                     <link rel="icon" href="/image/logos-font-fasten/instastore.png" type="image/x-icon" />
                 </Head>
                 <HeaderLogos />
@@ -35,6 +35,7 @@ export default function Signup({ }) {
                         </div>
                     </div>
                 </ThemeProvider>
+                <Footer />
             </div>
         </div>
     );
