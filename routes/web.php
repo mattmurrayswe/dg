@@ -35,7 +35,7 @@ Route::get('/duels/deck', function () {
 
 Route::get('/duels/signup', function () {
     return Inertia::render('Duels/Signup');
-})->name('signup');
+})->name('duels-signup');
 
 Route::get('/events/organizer/signup', function () {
     return Inertia::render('Events/Organizer/Signup');
