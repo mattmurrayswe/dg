@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Righteous';
+    src: url('../fonts/Righteous-Regular.ttf') format('truetype'); /* Use format('truetype') for TTF files */
+    /* Add other font formats if needed */
+    font-weight: normal;
+    font-style: normal;
+  }

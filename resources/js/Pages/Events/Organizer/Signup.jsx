@@ -3,13 +3,15 @@ import HeaderLogos from '../../Duels/HeaderLogos';
 import { Head } from '@inertiajs/react';
 import * as React from 'react';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { Button, CssBaseline, Typography } from '@mui/material';
+import { Button, CssBaseline } from '@mui/material';
 import Evento from './Evento';
 import Organizador from './Organizador';
 import Ingressos from './Ingressos';
 import Footer from './Footer';
 
 export default function Signup({ }) {
+
+    const dgEvents = '/image/logos-font-fasten/events.png';
 
     const darkTheme = createTheme({
         palette: {
@@ -22,16 +24,18 @@ export default function Signup({ }) {
             <CssBaseline />
             <div className='bg-black pt-14 min-h-screen px-2'>
                 <Head title="dg - Events">
-                    <link rel="icon" href="/image/logos-font-fasten/instastore.png" type="image/x-icon" />
+                    <link rel="icon" href={dgEvents} type="image/x-icon" />
                 </Head>
-                <HeaderLogos />
+                <HeaderLogos
+                    dgServiceImg={dgEvents}
+                />
                 <ThemeProvider theme={darkTheme}>
                     <div className='w-full flex justify-center'>
                         <div className='flex flex-wrap justify-end max-w-[700px]'>
                             <Organizador />
                             <Evento />
                             <Ingressos />
-                            <Button variant="outlined" color='secondary'>Criar Evento</Button>
+                            <Button variant="outlined" color='primary' style={{backgroundColor: '#0047FF', color: 'white' ,fontFamily: 'Righteous'}}>Criar Evento</Button>
                         </div>
                     </div>
                 </ThemeProvider>

@@ -19,7 +19,7 @@ export default function Footer({ }) {
                     <Typography className='flex justify-start w-fit text-start' style={{ color : "white" }} variant="subtitle2" color="gray" gutterBottom>
                         Rua Bom Jesus, nº 212, sala 1904 | Juvevê, Curitiba, PR, Brazil
                     </Typography>
-                <Typography className='flex justify-start w-fit text-start' style={{ color : "white", marginBottom : "0px" }} variant="subtitle2" color="gray" gutterBottom>
+                    <Typography className='flex justify-start w-fit text-start' style={{ color : "white", marginBottom : "0px" }} variant="subtitle2" color="gray" gutterBottom>
                         CNPJ 49.446.832/0001-25
                     </Typography>
                 </div>

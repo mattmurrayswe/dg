@@ -1,3 +1,5 @@
+Fonts: Fasten, Righteous
+
 ./vendor/bin/sail up
 
 docker-compose exec laravel.test bash

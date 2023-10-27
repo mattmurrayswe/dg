@@ -5,7 +5,8 @@ import SpotCard from './SpotCard';
 import HeaderLogos from './HeaderLogos';
 import SpotCardAdd from './SpotCardAdd';
 import { Head } from '@inertiajs/react';
-import { CssBaseline } from '@mui/material';
+import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
+import Footer from '../Events/Organizer/Footer';
 
 export default function Deck({}) {
 
@@ -22,14 +23,24 @@ export default function Deck({}) {
     const sp1 = '/image/spotters/s1.jpeg';
     const sp2 = '/image/spotters/s2.jpeg';
 
+    const dgDuels = '/image/logos-font-fasten/duels.png';
+
+    const darkTheme = createTheme({
+        palette: {
+          mode: 'dark',
+        },
+      });
+
     return (
         <div>
             <CssBaseline />
             <div className='bg-black pt-14 2xl:px-10'>
                 <Head title="dg - Duels">
-                    <link rel="icon" href="/image/logos-font-fasten/duels.png" type="image/x-icon" />
+                    <link rel="icon" href={dgDuels} type="image/x-icon" />
                 </Head>
-                <HeaderLogos/>
+                <HeaderLogos
+                    dgServiceImg={dgDuels}
+                />
                 <div className='flex flex-wrap justify-center'>
                     <SpotCard imgPath={s1} profImg={sp1} profName="p.sc_caspotter" shotType="Frontshot Lateral Esquerda" brand="Dodge" model="Demon Jailbreak" year="2021" rarity="legendary"></SpotCard>
                     <SpotCard imgPath={s4} profImg={sp2} profName="p4mplon4" shotType="Backshot Lateral Esquerda" brand="Lamborghini" model="Huracan Performante" year="2022" rarity="rare"></SpotCard>
@@ -42,6 +53,7 @@ export default function Deck({}) {
                     <SpotCard imgPath={s3} profImg={sp1} profName="timbaspots" shotType="Frontshot Lateral Direita" brand="Porsche" model="911 Carrera GTS" year="2019" rarity="uncommon"></SpotCard>
                     <SpotCardAdd/>
                 </div>
+                <Footer />
             </div>
         </div>
     );
