@@ -8,5 +8,7 @@ npm run dev
 
 Deploy:
 git pull no ec2
+npm run build dentro do container
 
-mv /public/hot /public/backup-hot 
+(conflito de http em https no Vite)
+mv /public/hot /public/backup-hot

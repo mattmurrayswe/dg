@@ -12,11 +12,11 @@ export default function Ingressos({ }) {
             <Typography variant="subtitle2" color="gray" className='w-full flex justify-end' style={{ marginTop: '3px', marginBottom: '7px' }} gutterBottom>
                 Tipo 1
             </Typography>
-            <div className='w-full flex justify-start'>
-            <TextField
+            <div className='w-full md:flex justify-start'>
+                <TextField
                     label="Tipo do Ingresso"
                     defaultValue="Visitante"
-                    className='w-fit'
+                    className='w-full md:w-fit'
                     style={{ marginBottom: '1em', marginRight: '7px' }}
                     id="outlined-number"
                     type="text"
@@ -27,7 +27,7 @@ export default function Ingressos({ }) {
                 <TextField
                     label="Valor"
                     defaultValue="59,00"
-                    className='w-fit text-white'
+                    className='w-full md:w-fit text-white'
                     style={{ marginBottom: '1em', marginRight: '7px' }}
                     id="outlined-number"
                     type="text"
@@ -44,7 +44,7 @@ export default function Ingressos({ }) {
                 <TextField
                     label="Quantidade de Ingressos"
                     defaultValue="200"
-                    className='w-fit'
+                    className='w-full md:w-fit'
                     style={{ marginBottom: '1em' }}
                     id="outlined-number"
                     type="number"
@@ -81,11 +81,11 @@ export default function Ingressos({ }) {
             <Typography variant="subtitle2" color="gray" className='w-full flex justify-end' style={{ marginTop: '1em', marginBottom: '7px' }}gutterBottom>
                 Tipo 2
             </Typography>
-            <div className='w-full flex justify-start'>
+            <div className='w-full md:flex justify-start'>
                 <TextField
                     label="Tipo do Ingresso"
                     defaultValue="Expositor"
-                    className='w-fit'
+                    className='w-full md:w-fit'
                     style={{ marginBottom: '1em', marginRight: '7px' }}
                     id="outlined-number"
                     type="text"
@@ -96,7 +96,7 @@ export default function Ingressos({ }) {
                 <TextField
                     label="Valor"
                     defaultValue="79,00"
-                    className='w-fit'
+                    className='w-full md:w-fit'
                     style={{ marginBottom: '1em', marginRight: '7px' }}
                     id="outlined-number"
                     type="text"
@@ -113,7 +113,7 @@ export default function Ingressos({ }) {
                 <TextField
                     label="Quantidade de Ingressos"
                     defaultValue="50"
-                    className='w-fit'
+                    className='w-full md:w-fit'
                     style={{ marginBottom: '1em' }}
                     id="outlined-number"
                     type="number"
@@ -149,11 +149,11 @@ export default function Ingressos({ }) {
             <Typography variant="subtitle2" color="gray" className='w-full flex justify-end' style={{ marginTop: '1em', marginBottom: '7px' }} gutterBottom>
                 Tipo 3
             </Typography>
-            <div className='w-full flex justify-start'>
+            <div className='w-full md:flex justify-start'>
                 <TextField
                     label="Tipo do Ingresso"
                     defaultValue="Patrocinador"
-                    className='w-fit'
+                    className='w-full md:w-fit'
                     style={{ marginBottom: '1em', marginRight: '7px' }}
                     id="outlined-number"
                     type="text"
@@ -164,7 +164,7 @@ export default function Ingressos({ }) {
                 <TextField
                     label="Valor"
                     defaultValue="600,00"
-                    className='w-fit'
+                    className='w-full md:w-fit'
                     style={{ marginBottom: '1em', marginRight: '7px' }}
                     id="outlined-number"
                     type="text"
@@ -181,7 +181,7 @@ export default function Ingressos({ }) {
                 <TextField
                     label="Quantidade de Ingressos"
                     defaultValue="20"
-                    className='w-fit'
+                    className='w-full md:w-fit'
                     style={{ marginBottom: '1em' }}
                     id="outlined-number"
                     type="number"
