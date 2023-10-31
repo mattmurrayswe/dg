@@ -3,7 +3,7 @@
 import { Head } from '@inertiajs/react';
 import * as React from 'react';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { CssBaseline } from '@mui/material';
+import { Avatar, Button, CssBaseline, Fab, IconButton } from '@mui/material';
 import Footer from './Footer';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
@@ -18,10 +18,12 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
+import EditIcon from '@mui/icons-material/Edit';
 import LogosDG from './LogosDG';
 
 const drawerWidth = 290;
 const dgFastenComBr = '/image/logos-font-fasten/dg-com-br.png';
+const jdmLogo = '/image/events/jdm/profile.jpeg';
 
 export default function Home({ }) {
 
@@ -66,7 +68,16 @@ export default function Home({ }) {
                             variant="permanent"
                             anchor="left"
                         >
-                            <Toolbar />
+                            <Toolbar style={{height: "6em"}}>
+                                <Avatar className='mr-2' sx={{ width: 44, height: 44 }} alt="JDM Experience" src={jdmLogo} />
+                                <div className='mr-1'>
+                                    <Typography variant='subtitle2' style={{ color: "white" }}>JDM Experience</Typography>
+                                    <Typography variant='subtitle2' style={{ color: "white" }}>@jdm.experience</Typography>
+                                </div>
+                                <IconButton size="small" style={{color: "grey"}} aria-label="delete">
+                                    <EditIcon />
+                                </IconButton>
+                            </Toolbar>
                             <Divider />
                             <List>
                                 {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
@@ -126,10 +137,10 @@ export default function Home({ }) {
                                 eleifend. Commodo viverra maecenas accumsan lacus vel facilisis. Nulla
                                 posuere sollicitudin aliquam ultrices sagittis orci a.
                             </Typography>
+                            <Footer />
                         </Box>
                     </Box>
                 </ThemeProvider>
-                <Footer />
             </div>
         </div>
     );
