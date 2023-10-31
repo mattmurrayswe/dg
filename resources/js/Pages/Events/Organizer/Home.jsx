@@ -17,10 +17,14 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import EditIcon from '@mui/icons-material/Edit';
-import BarChartIcon from '@mui/icons-material/BarChart';
 import AlignHorizontalLeftIcon from '@mui/icons-material/AlignHorizontalLeft';
-import AlignHorizontalRightIcon from '@mui/icons-material/AlignHorizontalRight';
 import SeusEventos from './SeusEventos';
+import LogoutIcon from '@mui/icons-material/Logout';
+import CheckroomIcon from '@mui/icons-material/Checkroom';
+import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
+import ConfirmationNumberIcon from '@mui/icons-material/ConfirmationNumber';
+import GroupsIcon from '@mui/icons-material/Groups';
+import FestivalIcon from '@mui/icons-material/Festival';
 
 const drawerWidth = 290;
 const dgFastenComBr = '/image/logos-font-fasten/dg-com-br.png';
@@ -84,23 +88,15 @@ export default function Home({ }) {
                                 <ListItem disablePadding>
                                     <ListItemButton >
                                         <ListItemIcon style={{minWidth: '32px'}}  className='flex justify-start'>
-                                            <AlignHorizontalLeftIcon />
+                                            <FestivalIcon />
                                         </ListItemIcon>
-                                        <ListItemText primary="Próximos Eventos" />
+                                        <ListItemText primary="Eventos" />
                                     </ListItemButton>
                                 </ListItem>
                                 <ListItem disablePadding>
                                     <ListItemButton>
                                         <ListItemIcon  style={{minWidth: '32px'}} className='flex justify-start min-w-[30px]'>
-                                            <AlignHorizontalRightIcon />
-                                        </ListItemIcon>
-                                        <ListItemText primary="Eventos Anteriores" />
-                                    </ListItemButton>
-                                </ListItem>
-                                <ListItem disablePadding>
-                                    <ListItemButton>
-                                        <ListItemIcon  style={{minWidth: '32px'}} className='flex justify-start min-w-[30px]'>
-                                            <BarChartIcon />
+                                            <AttachMoneyIcon />
                                         </ListItemIcon>
                                         <ListItemText primary="Financeiro" />
                                     </ListItemButton>
@@ -108,7 +104,7 @@ export default function Home({ }) {
                                 <ListItem disablePadding>
                                     <ListItemButton>
                                         <ListItemIcon  style={{minWidth: '32px'}} className='flex justify-start min-w-[30px]'>
-                                            <BarChartIcon />
+                                            <CheckroomIcon />
                                         </ListItemIcon>
                                         <ListItemText primary="Produtos" />
                                     </ListItemButton>
@@ -116,7 +112,7 @@ export default function Home({ }) {
                                 <ListItem disablePadding>
                                     <ListItemButton>
                                         <ListItemIcon  style={{minWidth: '32px'}} className='flex justify-start min-w-[30px]'>
-                                            <BarChartIcon />
+                                            <ConfirmationNumberIcon />
                                         </ListItemIcon>
                                         <ListItemText primary="Ingressos" />
                                     </ListItemButton>
@@ -124,7 +120,7 @@ export default function Home({ }) {
                                 <ListItem disablePadding>
                                     <ListItemButton>
                                         <ListItemIcon  style={{minWidth: '32px'}} className='flex justify-start min-w-[30px]'>
-                                            <BarChartIcon />
+                                            <GroupsIcon />
                                         </ListItemIcon>
                                         <ListItemText primary="Participantes" />
                                     </ListItemButton>
@@ -135,7 +131,7 @@ export default function Home({ }) {
                                 <ListItem className='h-fit' disablePadding>
                                     <ListItemButton>
                                         <ListItemIcon  style={{minWidth: '32px'}} className='flex justify-start min-w-[30px]'>
-                                            <BarChartIcon />
+                                            <LogoutIcon />
                                         </ListItemIcon>
                                         <ListItemText primary="Sair" />
                                     </ListItemButton>
