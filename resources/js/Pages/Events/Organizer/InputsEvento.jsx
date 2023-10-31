@@ -2,13 +2,10 @@ import * as React from 'react';
 import TextField from '@mui/material/TextField';
 import { Typography } from '@mui/material';
 
-export default function Evento({ }) {
+export default function InputsEvento({ }) {
 
     return (
-        <div className="flex flex-wrap justify-end">
-            <Typography variant="subtitle1" color="gray" style={{ marginTop: '1em' }} gutterBottom>
-                Evento
-            </Typography>
+        <div className="flex flex-wrap justify-end w-full">
             <TextField
                 label="Nome do Evento"
                 defaultValue="Churrascada JDM"
@@ -23,6 +20,17 @@ export default function Evento({ }) {
             <TextField
                 label="Data de Realização"
                 defaultValue="25/11/2023"
+                className='w-full'
+                style={{ marginBottom: '1em' }}
+                id="outlined-number"
+                type="text"
+                InputLabelProps={{
+                    shrink: true,
+                }}
+            />
+            <TextField
+                label="Local"
+                defaultValue="Chácara San Carlo"
                 className='w-full'
                 style={{ marginBottom: '1em' }}
                 id="outlined-number"

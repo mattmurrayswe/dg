@@ -21,7 +21,7 @@ export default function Sidebar({ }) {
                 <Link className='w-full' href="#">Criar Novo Evento</Link>
                 <Link className='w-full' href="#">Ingressos</Link>
                 <Link className='w-full' href="#">Produtos</Link>
-                <Link className='w-full' href="#">Editar Evento Atual</Link>
+                <Link className='w-full' href="#">Eventos Anteriores</Link>
                 <Link className='w-full' href="#">Painel de Estatísticas</Link>
             </div>
         </div>

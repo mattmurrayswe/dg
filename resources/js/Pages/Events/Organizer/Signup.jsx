@@ -4,10 +4,10 @@ import { Head } from '@inertiajs/react';
 import * as React from 'react';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Button, CssBaseline } from '@mui/material';
-import Evento from './Evento';
 import Organizador from './Organizador';
-import Ingressos from './Ingressos';
+import FormIngressos from './FormIngressos';
 import Footer from './Footer';
+import FormEvento from './FormEvento';
 
 export default function Signup({ }) {
 
@@ -33,9 +33,9 @@ export default function Signup({ }) {
                     <div className='w-full flex justify-center'>
                         <div className='flex flex-wrap justify-end max-w-[700px]'>
                             <Organizador />
-                            <Evento />
-                            <Ingressos />
-                            <Button variant="outlined" color='primary' style={{backgroundColor: '#0047FF', color: 'white' ,fontFamily: 'Righteous'}}>Criar Evento</Button>
+                            <FormEvento />
+                            <FormIngressos />
+                            <Button variant="outlined" color='primary' style={{backgroundColor: '#0047FF', color: 'white', fontFamily: 'Righteous'}}>Criar Evento</Button>
                         </div>
                     </div>
                 </ThemeProvider>

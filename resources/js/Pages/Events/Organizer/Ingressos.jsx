@@ -1,219 +1,183 @@
 import * as React from 'react';
-import TextField from '@mui/material/TextField';
-import { InputAdornment, Typography } from '@mui/material';
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 
 export default function Ingressos({ }) {
 
-    return (
-        <div>
-            <Typography variant="subtitle1" color="gray" className='w-full flex justify-end' style={{ marginTop: '1em' }} gutterBottom>
-                Ingressos
-            </Typography>
-            <Typography variant="subtitle2" color="gray" className='w-full flex justify-end' style={{ marginTop: '3px', marginBottom: '7px' }} gutterBottom>
-                Tipo 1
-            </Typography>
-            <div className='w-full md:flex justify-start'>
-                <TextField
-                    label="Tipo do Ingresso"
-                    defaultValue="Visitante"
-                    className='w-full md:w-fit'
-                    style={{ marginBottom: '1em', marginRight: '7px' }}
-                    id="outlined-number"
-                    type="text"
-                    InputLabelProps={{
-                        shrink: true,
-                    }}
-                />
-                <TextField
-                    label="Valor"
-                    defaultValue="59,00"
-                    className='w-full md:w-fit text-white'
-                    style={{ marginBottom: '1em', marginRight: '7px' }}
-                    id="outlined-number"
-                    type="text"
-                    InputLabelProps={{
-                        shrink: true,
-                    }}
-                    InputProps={{
-                        startAdornment:
-                        <InputAdornment position="start" className='p-0'>
-                            R$
-                        </InputAdornment>,
-                    }}
-                />
-                <TextField
-                    label="Quantidade de Ingressos"
-                    defaultValue="200"
-                    className='w-full md:w-fit'
-                    style={{ marginBottom: '1em' }}
-                    id="outlined-number"
-                    type="number"
-                    InputLabelProps={{
-                        shrink: true,
-                    }}
-                />
-            </div>
+    const imgDivulgacao = '/image/events/jdm/divulgacao-1.jpeg';
 
-            <TextField
-                label="Título do Ingresso"
-                defaultValue="Visitante"
-                className='w-full'
-                style={{ marginBottom: '1em' }}
-                id="outlined-number"
-                type="text"
-                InputLabelProps={{
-                    shrink: true,
-                }}
-            />
-            <TextField
-                label="Descrição do Ingresso"
-                defaultValue="Almoço, acesso à exposição e demais atrações."
-                multiline={true}
-                rows={2}
-                className='w-full'
-                style={{ marginBottom: '1em' }}
-                id="outlined-number"
-                type="text"
-                InputLabelProps={{
-                    shrink: true,
-                }}
-            />
-            <Typography variant="subtitle2" color="gray" className='w-full flex justify-end' style={{ marginTop: '1em', marginBottom: '7px' }}gutterBottom>
-                Tipo 2
-            </Typography>
-            <div className='w-full md:flex justify-start'>
-                <TextField
-                    label="Tipo do Ingresso"
-                    defaultValue="Expositor"
-                    className='w-full md:w-fit'
-                    style={{ marginBottom: '1em', marginRight: '7px' }}
-                    id="outlined-number"
-                    type="text"
-                    InputLabelProps={{
-                        shrink: true,
-                    }}
-                />
-                <TextField
-                    label="Valor"
-                    defaultValue="79,00"
-                    className='w-full md:w-fit'
-                    style={{ marginBottom: '1em', marginRight: '7px' }}
-                    id="outlined-number"
-                    type="text"
-                    InputLabelProps={{
-                        shrink: true,
-                    }}
-                    InputProps={{
-                        startAdornment:
-                        <InputAdornment position="start" className='p-0'>
-                            R$
-                        </InputAdornment>,
-                    }}
-                />
-                <TextField
-                    label="Quantidade de Ingressos"
-                    defaultValue="50"
-                    className='w-full md:w-fit'
-                    style={{ marginBottom: '1em' }}
-                    id="outlined-number"
-                    type="number"
-                    InputLabelProps={{
-                        shrink: true,
-                    }}
-                />
+    return (
+        <div className='flex flex-wrap gap-6'>
+            <div className='flex gap-6'>
+                <Card sx={{ minWidth: 275 }}>
+                    <CardContent>
+                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                            Word of the Day
+                        </Typography>
+                        <Typography variant="h5" component="div">
+                            benevolent
+                        </Typography>
+                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                            adjective
+                        </Typography>
+                        <Typography variant="body2">
+                            well meaning and kindly.
+                            <br />
+                            {'"a benevolent smile"'}
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="small">Learn More</Button>
+                    </CardActions>
+                </Card>            <Card sx={{ minWidth: 275 }}>
+                    <CardContent>
+                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                            Word of the Day
+                        </Typography>
+                        <Typography variant="h5" component="div">
+                            benevolent
+                        </Typography>
+                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                            adjective
+                        </Typography>
+                        <Typography variant="body2">
+                            well meaning and kindly.
+                            <br />
+                            {'"a benevolent smile"'}
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="small">Learn More</Button>
+                    </CardActions>
+                </Card>            <Card sx={{ minWidth: 275 }}>
+                    <CardContent>
+                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                            Word of the Day
+                        </Typography>
+                        <Typography variant="h5" component="div">
+                            benevolent
+                        </Typography>
+                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                            adjective
+                        </Typography>
+                        <Typography variant="body2">
+                            well meaning and kindly.
+                            <br />
+                            {'"a benevolent smile"'}
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="small">Learn More</Button>
+                    </CardActions>
+                </Card>            <Card sx={{ minWidth: 275 }}>
+                    <CardContent>
+                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                            Word of the Day
+                        </Typography>
+                        <Typography variant="h5" component="div">
+                            benevolent
+                        </Typography>
+                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                            adjective
+                        </Typography>
+                        <Typography variant="body2">
+                            well meaning and kindly.
+                            <br />
+                            {'"a benevolent smile"'}
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="small">Learn More</Button>
+                    </CardActions>
+                </Card>
             </div>
-            <TextField
-                label="Título do Ingresso"
-                defaultValue="Expositor - Carro + Motorista"
-                className='w-full'
-                style={{ marginBottom: '1em' }}
-                id="outlined-number"
-                type="text"
-                InputLabelProps={{
-                    shrink: true,
-                }}
-            />
-            <TextField
-                label="Descrição do Ingresso"
-                defaultValue="Direito à exposição de um veículo e almoço. Obs.: Acompanhantes não receberão credenciais."
-                multiline={true}
-                rows={2}
-                className='w-full'
-                style={{ marginBottom: '1em' }}
-                id="outlined-number"
-                type="text"
-                InputLabelProps={{
-                    shrink: true,
-                }}
-            />
-            <Typography variant="subtitle2" color="gray" className='w-full flex justify-end' style={{ marginTop: '1em', marginBottom: '7px' }} gutterBottom>
-                Tipo 3
-            </Typography>
-            <div className='w-full md:flex justify-start'>
-                <TextField
-                    label="Tipo do Ingresso"
-                    defaultValue="Patrocinador"
-                    className='w-full md:w-fit'
-                    style={{ marginBottom: '1em', marginRight: '7px' }}
-                    id="outlined-number"
-                    type="text"
-                    InputLabelProps={{
-                        shrink: true,
-                    }}
-                />
-                <TextField
-                    label="Valor"
-                    defaultValue="600,00"
-                    className='w-full md:w-fit'
-                    style={{ marginBottom: '1em', marginRight: '7px' }}
-                    id="outlined-number"
-                    type="text"
-                    InputLabelProps={{
-                        shrink: true,
-                    }}
-                    InputProps={{
-                        startAdornment:
-                        <InputAdornment position="start" className='p-0'>
-                            R$
-                        </InputAdornment>,
-                    }}
-                />
-                <TextField
-                    label="Quantidade de Ingressos"
-                    defaultValue="20"
-                    className='w-full md:w-fit'
-                    style={{ marginBottom: '1em' }}
-                    id="outlined-number"
-                    type="number"
-                    InputLabelProps={{
-                        shrink: true,
-                    }}
-                />
+            <div className='flex gap-6'>
+                <Card sx={{ minWidth: 275 }}>
+                    <CardContent>
+                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                            Word of the Day
+                        </Typography>
+                        <Typography variant="h5" component="div">
+                            benevolent
+                        </Typography>
+                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                            adjective
+                        </Typography>
+                        <Typography variant="body2">
+                            well meaning and kindly.
+                            <br />
+                            {'"a benevolent smile"'}
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="small">Learn More</Button>
+                    </CardActions>
+                </Card>            <Card sx={{ minWidth: 275 }}>
+                    <CardContent>
+                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                            Word of the Day
+                        </Typography>
+                        <Typography variant="h5" component="div">
+                            benevolent
+                        </Typography>
+                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                            adjective
+                        </Typography>
+                        <Typography variant="body2">
+                            well meaning and kindly.
+                            <br />
+                            {'"a benevolent smile"'}
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="small">Learn More</Button>
+                    </CardActions>
+                </Card>            <Card sx={{ minWidth: 275 }}>
+                    <CardContent>
+                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                            Word of the Day
+                        </Typography>
+                        <Typography variant="h5" component="div">
+                            benevolent
+                        </Typography>
+                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                            adjective
+                        </Typography>
+                        <Typography variant="body2">
+                            well meaning and kindly.
+                            <br />
+                            {'"a benevolent smile"'}
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="small">Learn More</Button>
+                    </CardActions>
+                </Card>            <Card sx={{ minWidth: 275 }}>
+                    <CardContent>
+                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                            Word of the Day
+                        </Typography>
+                        <Typography variant="h5" component="div">
+                            benevolent
+                        </Typography>
+                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                            adjective
+                        </Typography>
+                        <Typography variant="body2">
+                            well meaning and kindly.
+                            <br />
+                            {'"a benevolent smile"'}
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="small">Learn More</Button>
+                    </CardActions>
+                </Card>
             </div>
-            <TextField
-                label="Título do Ingresso"
-                defaultValue="Patrocinador -  Carro + Motorista"
-                className='w-full'
-                style={{ marginBottom: '1em' }}
-                id="outlined-number"
-                type="text"
-                InputLabelProps={{
-                    shrink: true,
-                }}
-            />
-            <TextField
-                label="Descrição do Ingresso"
-                defaultValue="Direito à divulgação de sua marca nos recursos visuais do evento."
-                multiline={true}
-                rows={2}
-                className='w-full'
-                style={{ marginBottom: '1em' }}
-                id="outlined-number"
-                type="text"
-                InputLabelProps={{
-                    shrink: true,
-                }}
-            />
         </div>
     );
 }

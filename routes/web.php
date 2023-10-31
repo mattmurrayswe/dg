@@ -41,6 +41,10 @@ Route::get('/events/organizer/signup', function () {
     return Inertia::render('Events/Organizer/Signup');
 })->name('events-organizer-signup');
 
+Route::get('/events/organizer/prototype', function () {
+    return Inertia::render('Events/Organizer/HomePrototype');
+})->name('organizer');
+
 Route::get('/events/organizer', function () {
     return Inertia::render('Events/Organizer/Home');
 })->name('organizer');

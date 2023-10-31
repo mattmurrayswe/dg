@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export default function HeaderLogos({ dgServiceImg }) {
+export default function LogosDG({ dgServiceImg }) {
     
     const dgFastenComBr = '/image/logos-font-fasten/dg-com-br.png';
 
