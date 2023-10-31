@@ -1,5 +1,3 @@
-
-
 import { Head } from '@inertiajs/react';
 import * as React from 'react';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
