@@ -33,6 +33,10 @@ Route::get('/duels/deck', function () {
     return Inertia::render('Duels/Deck');
 })->name('deck');
 
+Route::get('/club', function () {
+    return Inertia::render('Club/Home');
+})->name('club');
+
 Route::get('/duels/signup', function () {
     return Inertia::render('Duels/Signup');
 })->name('duels-signup');
@@ -43,7 +47,7 @@ Route::get('/events/organizer/signup', function () {
 
 Route::get('/events/organizer/prototype', function () {
     return Inertia::render('Events/Organizer/HomePrototype');
-})->name('organizer');
+})->name('organizer-prototype');
 
 Route::get('/events/organizer', function () {
     return Inertia::render('Events/Organizer/Home');
