@@ -49,6 +49,10 @@ Route::get('/events/organizer', function () {
     return Inertia::render('Events/Organizer/Home');
 })->name('organizer');
 
+Route::get('/events/visitante', function () {
+    return Inertia::render('Events/Visitante/Home');
+})->name('visitante');
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
