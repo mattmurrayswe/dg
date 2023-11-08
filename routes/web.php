@@ -37,8 +37,8 @@ Route::get('/club', function () {
     return Inertia::render('Club/Home');
 })->name('club');
 
-Route::get('/events/jdmexperience', function () {
-    return Inertia::render('events/jdmexperience/Home');
+Route::get('jdmexperience', function () {
+    return Inertia::render('jdmexperience/Home');
 })->name('jdmexperience');
 
 Route::get('/duels/signup', function () {
