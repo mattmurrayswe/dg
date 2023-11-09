@@ -90,7 +90,9 @@ export default function ClubCard({
         <Button variant="outlined" size="small">
           {clubNumber}
         </Button>
-          <Button size="small">Visit</Button> 
+        <a href={linkInstagram} target="_blank">
+          <Button size="small">Visit</Button>
+        </a>
       </CardActions>
     </Card>
   );

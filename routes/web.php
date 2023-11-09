@@ -42,7 +42,7 @@ Route::get('/duels/signup', function () {
 })->name('duels-signup');
 
 Route::get('/events/jdmexperience', function () {
-    return Inertia::render('jdmexperience/Home');
+    return Inertia::render('JDMExperience/Home');
 })->name('jdmexperience');
 
 Route::get('/events/organizer/signup', function () {
