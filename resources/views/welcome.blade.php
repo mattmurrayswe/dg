@@ -74,7 +74,7 @@
                                     <img src="{{URL::asset('/image/logos-font-fasten/events.png')}}" alt="profile Pic" height="160" width="160">
                                 </div>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. Duels</h2>
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. Events</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
                                     Organize seus eventos automotivos. Emissão de ingressos, gateway de pagamentos, estatísticas dos seus eventos e disparos de campanhas de marketing.

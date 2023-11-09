@@ -52,8 +52,8 @@ export default function Home({ }) {
                     dgServiceImg={dgClub}
                 />
                 <div className='flex flex-wrap justify-center'>
-                    <ClubCard imgPath={c9} profImg={p9} profName="@68gangperformance" shotType="Backshot Lateral Esquerda" brand="Toyota" model="Supra" year="" rarity="legendary" role="Convidado" clubNumber="1" linkInstagram="https://www.instagram.com/68gangperformance/"></ClubCard>
-                    <ClubCard imgPath={c10} profImg={p10} profName="@satoshigarage" shotType="Backshot Lateral Esquerda" brand="Nissan" model="Skyline R34" year="" rarity="legendary" role="Convidado" clubNumber="2" linkInstagram="https://www.instagram.com/satoshigarage/"></ClubCard>
+                    <ClubCard imgPath={c9} profImg={p9} profName="@68gangperformance" shotType="Backshot Lateral Esquerda" brand="Toyota" model="Supra" year="" rarity="legendary" role="Patrocinador" clubNumber="1" linkInstagram="https://www.instagram.com/68gangperformance/"></ClubCard>
+                    <ClubCard imgPath={c10} profImg={p10} profName="@satoshigarage" shotType="Backshot Lateral Esquerda" brand="Nissan" model="Skyline R34" year="" rarity="legendary" role="Patrocinador" clubNumber="2" linkInstagram="https://www.instagram.com/satoshigarage/"></ClubCard>
                     <ClubCard imgPath={c19} profImg={p19} profName="041adesivos" shotType="Backshot Lateral Esquerda" brand="Mercedes-Benz" model="A 45 AMG" year="" rarity="epic" role="Patrocinador" clubNumber="3" linkInstagram="https://www.instagram.com/041adesivos/"></ClubCard>
                     <ClubCard imgPath={c12} profImg={p12} profName="@malvadaogarage" shotType="Backshot Lateral Esquerda" brand="Mitsubishi " model="Lancer" year="" rarity="epic" role="Patrocinador" clubNumber="4" linkInstagram="https://www.instagram.com/malvadaogarage/"></ClubCard>
                     <ClubCard imgPath={c15} profImg={p15} profName="@gli_dark" shotType="Backshot Lateral Esquerda" brand="Volkswagen " model="Jetta GLI" year="" rarity="uncommon" role="Expositor" clubNumber="5" linkInstagram="https://www.instagram.com/gli_dark/"></ClubCard>
