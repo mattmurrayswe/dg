@@ -78,7 +78,7 @@ export default function Home({ }) {
     return (
         <div>
             <CssBaseline />
-            <div className='bg-black pt-14 2xl:px-10'>
+            <div className='bg-black pt-4 2xl:px-10'>
                 <Head title="JDM EXPERIENCE - EXPOSIÇÃO">
                     <link rel="icon" href={dgClub} type="image/x-icon" />
                 </Head>
@@ -98,7 +98,7 @@ export default function Home({ }) {
                     <ClubCard imgPath={c13} profImg={p13} profName="@lancer.red.double" shotType="Backshot Lateral Esquerda" brand="Mitsubishi " model="Lancer" year="" rarity="uncommon" role="Expositor" clubNumber="10"></ClubCard>
                     <ClubCard imgPath={c14} profImg={p14} profName="@imbackgarage" shotType="Backshot Lateral Esquerda" brand="Mitsubishi " model="Lancer" year="" rarity="uncommon" role="Expositor" clubNumber="11"></ClubCard>
                     <ClubCard imgPath={c16} profImg={p16} profName="@gabrielneto" shotType="Backshot Lateral Esquerda" brand="Volkswagen " model="Gol G3" year="" rarity="uncommon" role="Expositor" clubNumber="12"></ClubCard>
-                    <ClubCard imgPath={c17} profImg={p17} profName="@edemir.adv" shotType="Backshot Lateral Esquerda" brand="Lexus " model="" year="" rarity="uncommon" role="Expositor" clubNumber="13"></ClubCard>
+                    <ClubCard imgPath={c17} profImg={p17} profName="@edemir.adv" shotType="Backshot Lateral Esquerda" brand="Lexus " model="Lexus" year="" rarity="uncommon" role="Expositor" clubNumber="13"></ClubCard>
                     <ClubCard imgPath={c18} profImg={p18} profName="@duraaes_oficial" shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="uncommon" role="Expositor" clubNumber="14"></ClubCard>
                 </div>
                 <Footer />
