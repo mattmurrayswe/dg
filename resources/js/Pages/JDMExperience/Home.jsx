@@ -23,6 +23,21 @@ export default function Home({ }) {
     const c17 = '/image/club/members/cars/i17.JPG';
     const c18 = '/image/club/members/cars/i18.JPG';
     const c19 = '/image/club/members/cars/i19.JPG';
+    const c20 = '/image/club/members/cars/i20.JPG';
+    const c21 = '/image/club/members/cars/i21.JPG';
+    const c22 = '/image/club/members/cars/i22.JPG';
+    const c23 = '/image/club/members/cars/i23.JPG';
+    const c24 = '/image/club/members/cars/i24.JPG';
+    const c25 = '/image/club/members/cars/i25.JPG';
+    const c26 = '/image/club/members/cars/i26.JPG';
+    const c27 = '/image/club/members/cars/i27.JPG';
+    const c28 = '/image/club/members/cars/i28.JPG';
+    const c29 = '/image/club/members/cars/i29.JPG';
+    const c30 = '/image/club/members/cars/i30.JPG';
+    const c31 = '/image/club/members/cars/i31.JPG';
+    const c32 = '/image/club/members/cars/i32.JPG';
+    const c33 = '/image/club/members/cars/i33.JPG';
+    const c34 = '/image/club/members/cars/i34.JPG';
 
     const p6 = '/image/club/members/profiles/i6.JPG';
     const p7 = '/image/club/members/profiles/i7.JPG';
@@ -38,6 +53,21 @@ export default function Home({ }) {
     const p17 = '/image/club/members/profiles/i17.JPG';
     const p18 = '/image/club/members/profiles/i18.JPG';
     const p19 = '/image/club/members/profiles/i19.JPG';
+    const p20 = '/image/club/members/profiles/i20.JPG';
+    const p21 = '/image/club/members/profiles/i21.JPG';
+    const p22 = '/image/club/members/profiles/i22.JPG';
+    const p23 = '/image/club/members/profiles/i23.JPG';
+    const p24 = '/image/club/members/profiles/i24.JPG';
+    const p25 = '/image/club/members/profiles/i25.JPG';
+    const p26 = '/image/club/members/profiles/i26.JPG';
+    const p27 = '/image/club/members/profiles/i27.JPG';
+    const p28 = '/image/club/members/profiles/i28.JPG';
+    const p29 = '/image/club/members/profiles/i29.JPG';
+    const p30 = '/image/club/members/profiles/i30.JPG';
+    const p31 = '/image/club/members/profiles/i31.JPG';
+    const p32 = '/image/club/members/profiles/i32.JPG';
+    const p33 = '/image/club/members/profiles/i33.JPG';
+    const p34 = '/image/club/members/profiles/i34.JPG';
 
     const dgClub = '/image/logos-font-fasten/JDMEX.png';
 
@@ -66,6 +96,22 @@ export default function Home({ }) {
                     <ClubCard imgPath={c16} profImg={p16} profName="@gabrielneto" shotType="Backshot Lateral Esquerda" brand="Volkswagen " model="Gol G3" year="" rarity="uncommon" role="Expositor" clubNumber="12" linkInstagram="https://www.instagram.com/gabrieltneto/"></ClubCard>
                     <ClubCard imgPath={c17} profImg={p17} profName="@edemir.adv" shotType="Backshot Lateral Esquerda" brand="Lexus " model="Lexus" year="" rarity="uncommon" role="Expositor" clubNumber="13" linkInstagram=""></ClubCard>
                     <ClubCard imgPath={c18} profImg={p18} profName="@duraaes_oficial" shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="uncommon" role="Expositor" clubNumber="14" linkInstagram="https://www.instagram.com/duraaes_oficial/"></ClubCard>
+                    <ClubCard imgPath={c20} profImg={p20} profName="@autovidroscajuru" shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="epic" role="Patrocinador" clubNumber="14" linkInstagram="https://www.instagram.com/autovidroscajuru/"></ClubCard>
+                    <ClubCard imgPath={c21} profImg={p21} profName="@d3v.garage" shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="uncommon" role="Expositor" clubNumber="14" linkInstagram="https://www.instagram.com/d3v.garage/"></ClubCard>
+                    <ClubCard imgPath={c22} profImg={p22} profName="@ducampelo_" shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="epic" role="Patrocinador" clubNumber="14" linkInstagram="https://www.instagram.com/ducampelo_/"></ClubCard>
+                    <ClubCard imgPath={c23} profImg={p23} profName="@ckleinarage " shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="epic" role="Patrocinador" clubNumber="14" linkInstagram=""></ClubCard>
+                    <ClubCard imgPath={c24} profImg={p24} profName="@eclipseblack95 " shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="uncommon" role="Expositor" clubNumber="14" linkInstagram="https://www.instagram.com/eclipseblack95/"></ClubCard>
+                    <ClubCard imgPath={c25} profImg={p25} profName="@piadomazda " shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="uncommon" role="Expositor" clubNumber="14" linkInstagram="https://www.instagram.com/piadomazda/"></ClubCard>                    
+                    <ClubCard imgPath={c26} profImg={p26} profName="@autos_cwb " shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="uncommon" role="Expositor" clubNumber="14" linkInstagram="https://www.instagram.com/piadomazda/"></ClubCard>
+                    <ClubCard imgPath={c27} profImg={p27} profName="@lancer.jg " shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="uncommon" role="Expositor" clubNumber="14" linkInstagram="https://www.instagram.com/piadomazda/"></ClubCard>
+                    <ClubCard imgPath={c28} profImg={p28} profName="@victor.smaniotto_ " shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="uncommon" role="Expositor" clubNumber="14" linkInstagram="https://www.instagram.com/piadomazda/"></ClubCard>
+                    <ClubCard imgPath={c29} profImg={p29} profName="@saulofrancisco " shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="uncommon" role="Expositor" clubNumber="14" linkInstagram="https://www.instagram.com/piadomazda/"></ClubCard>
+                    <ClubCard imgPath={c30} profImg={p30} profName="@pridenadaicastro " shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="uncommon" role="Expositor" clubNumber="14" linkInstagram="https://www.instagram.com/piadomazda/"></ClubCard>
+                    <ClubCard imgPath={c31} profImg={p31} profName="@nhegasord " shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="uncommon" role="Expositor" clubNumber="14" linkInstagram="https://www.instagram.com/piadomazda/"></ClubCard>
+                    <ClubCard imgPath={c32} profImg={p32} profName="@mitsubachan46 " shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="uncommon" role="Expositor" clubNumber="14" linkInstagram="https://www.instagram.com/piadomazda/"></ClubCard>
+                    <ClubCard imgPath={c33} profImg={p33} profName="@leozinlourenco " shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="uncommon" role="Expositor" clubNumber="14" linkInstagram="https://www.instagram.com/piadomazda/"></ClubCard>
+                    <ClubCard imgPath={c34} profImg={p34} profName="@lancerAiko " shotType="Backshot Lateral Esquerda" brand="Honda " model="Civic" year="" rarity="uncommon" role="Expositor" clubNumber="14" linkInstagram="https://www.instagram.com/piadomazda/"></ClubCard>
+
                 </div>
                 <Footer />
             </div>
