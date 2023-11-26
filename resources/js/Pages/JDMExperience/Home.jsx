@@ -2,10 +2,11 @@
 import React, { useEffect } from 'react';
 
 import { Head } from '@inertiajs/react';
-import { CssBaseline, createTheme } from '@mui/material';
+import { AppBar, CssBaseline, Toolbar, Typography, createTheme } from '@mui/material';
 import Footer from '../Events/Organizer/Footer';
 import HeaderLogos from './HeaderLogos';
 import ClubCard from './ClubCard';
+import { ThemeProvider } from '@emotion/react';
 
 export default function Home({ }) {
 
@@ -39,17 +40,32 @@ export default function Home({ }) {
     const p18 = '/image/club/members/profiles/i18.JPG';
     const p19 = '/image/club/members/profiles/i19.JPG';
 
-    const dgClub = '/image/logos-font-fasten/JDMEX.png';
+    const logoJDM = '/image/logos-font-fasten/JDMEX.png';
+    const dgFastenComBr = '/image/logos-font-fasten/dg-com-br.png';
+
+    const darkTheme = createTheme({
+        palette: {
+            mode: 'dark',
+        },
+    });
 
     return (
         <div>
             <CssBaseline />
+            <ThemeProvider theme={darkTheme}>
+                <Toolbar className='flex justify-between' style={{ backgroundColor: "#121212", color: 'white'}}>
+                    <Typography style={{ fontFamily: 'Righteous' }} variant="h6" noWrap component="div">
+                        Exposição Digital
+                    </Typography>
+                    <img src={dgFastenComBr} alt="" className='mx-2 w-[80px]' />
+                </Toolbar>
+            </ThemeProvider>
             <div className='bg-black pt-4 2xl:px-10'>
-                <Head title="JDM EXPERIENCE - EXPOSIÇÃO">
-                    <link rel="icon" href={dgClub} type="image/x-icon" />
+                <Head title="dg | JDM Experience">
+                    <link rel="icon" href={logoJDM} type="image/x-icon" />
                 </Head>
                 <HeaderLogos
-                    dgServiceImg={dgClub}
+                    dgServiceImg={logoJDM}
                 />
                 <div className='flex flex-wrap justify-center'>
                     <ClubCard imgPath={c9} profImg={p9} profName="@68gangperformance" shotType="Backshot Lateral Esquerda" brand="Toyota" model="Supra" year="" rarity="legendary" role="Patrocinador" clubNumber="1" linkInstagram="https://www.instagram.com/68gangperformance/"></ClubCard>
