@@ -88,7 +88,7 @@ export default function Home({ }) {
                                         <ListItemIcon style={{minWidth: '32px'}}  className='flex justify-start'>
                                             <FestivalIcon />
                                         </ListItemIcon>
-                                        <ListItemText primary="Eventos" />
+                                        <ListItemText primary="Seus Eventos" />
                                     </ListItemButton>
                                 </ListItem>
                                 <ListItem disablePadding>

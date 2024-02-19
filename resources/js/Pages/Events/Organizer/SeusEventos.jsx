@@ -13,6 +13,7 @@ import ListItemText from '@mui/material/ListItemText';
 import ConfirmationNumberIcon from '@mui/icons-material/ConfirmationNumber';
 import CheckroomIcon from '@mui/icons-material/Checkroom';
 import InfoIcon from '@mui/icons-material/Info';
+import GroupsIcon from '@mui/icons-material/Groups';
 
 function CustomTabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -63,12 +64,15 @@ export default function SeusEventos({ }) {
             <Toolbar />
             <Box className="flex justify-end" sx={{ width: '100%' }}>
                 <CustomTabPanel value={value} index={0}>
-                    Informações do Eventos
+                    Informações Gerais
                 </CustomTabPanel>
                 <CustomTabPanel value={value} index={1}>
                     Ingressos
                 </CustomTabPanel>
                 <CustomTabPanel value={value} index={2}>
+                    Exposição Digital
+                </CustomTabPanel>
+                <CustomTabPanel value={value} index={3}>
                     Produtos
                 </CustomTabPanel>
                 <Box className="w-fit" sx={{ borderBottom: 1, borderColor: 'divider' }}>
@@ -76,7 +80,7 @@ export default function SeusEventos({ }) {
                         <Tab style={{ padding: "0px", alignItems: "end", color: "white", textTransform: "none" }} label={
                             <ListItem disablePadding>
                                 <ListItemButton>
-                                    <ListItemText className='flex justify-end m-3' primary="Informações" />
+                                    <ListItemText className='flex justify-end m-3' primary="Informações Gerais" />
                                     <ListItemIcon style={{ minWidth: '32px' }} className='flex justify-start min-w-[30px]'>
                                         <InfoIcon />
                                     </ListItemIcon>
@@ -86,9 +90,9 @@ export default function SeusEventos({ }) {
                         <Tab style={{ padding: "0px",alignItems: "end", color: "white", textTransform: "none" }} label={
                             <ListItem disablePadding>
                                 <ListItemButton>
-                                    <ListItemText className='flex justify-end m-3' primary="Produtos" />
+                                    <ListItemText className='flex justify-end m-3' primary="Ingressos" />
                                     <ListItemIcon style={{ minWidth: '32px' }} className='flex justify-start min-w-[30px]'>
-                                        <CheckroomIcon />
+                                        <ConfirmationNumberIcon />
                                     </ListItemIcon>
                                 </ListItemButton>
                             </ListItem>
@@ -96,13 +100,23 @@ export default function SeusEventos({ }) {
                         <Tab style={{ padding: "0px",alignItems: "end", color: "white", textTransform: "none" }} label={
                             <ListItem disablePadding>
                                 <ListItemButton>
-                                    <ListItemText className='flex justify-end m-3' primary="Ingressos" />
+                                    <ListItemText className='flex justify-end m-3' primary="Exposição Digital" />
                                     <ListItemIcon style={{ minWidth: '32px' }} className='flex justify-start min-w-[30px]'>
-                                        <ConfirmationNumberIcon />
+                                        <GroupsIcon />
                                     </ListItemIcon>
                                 </ListItemButton>
                             </ListItem>
                         } {...a11yProps(2)} />
+                        <Tab style={{ padding: "0px",alignItems: "end", color: "white", textTransform: "none" }} label={
+                            <ListItem disablePadding>
+                                <ListItemButton>
+                                    <ListItemText className='flex justify-end m-3' primary="Produtos" />
+                                    <ListItemIcon style={{ minWidth: '32px' }} className='flex justify-start min-w-[30px]'>
+                                        <CheckroomIcon />
+                                    </ListItemIcon>
+                                </ListItemButton>
+                            </ListItem>
+                        } {...a11yProps(3)} />
                     </Tabs>
                 </Box>
             </Box>
