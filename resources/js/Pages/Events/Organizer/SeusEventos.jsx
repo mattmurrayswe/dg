@@ -14,6 +14,9 @@ import ConfirmationNumberIcon from '@mui/icons-material/ConfirmationNumber';
 import CheckroomIcon from '@mui/icons-material/Checkroom';
 import InfoIcon from '@mui/icons-material/Info';
 import GroupsIcon from '@mui/icons-material/Groups';
+import InformacoesEvento from './InformacoesEvento';
+import Ingressos from './Ingressos';
+import Produtos from './Produtos';
 
 function CustomTabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -63,19 +66,19 @@ export default function SeusEventos({ }) {
         >
             <Toolbar />
             <Box className="flex justify-end" sx={{ width: '100%' }}>
-                <CustomTabPanel value={value} index={0}>
-                    Informações Gerais
+                <CustomTabPanel className="pt-10" value={value} index={0}>
+                    <InformacoesEvento />
                 </CustomTabPanel>
-                <CustomTabPanel value={value} index={1}>
-                    Ingressos
+                <CustomTabPanel className="pt-10" value={value} index={1}>
+                    <Ingressos />
                 </CustomTabPanel>
                 <CustomTabPanel value={value} index={2}>
                     Exposição Digital
                 </CustomTabPanel>
-                <CustomTabPanel value={value} index={3}>
-                    Produtos
+                <CustomTabPanel className="pt-10" value={value} index={3}>
+                    <Produtos />
                 </CustomTabPanel>
-                <Box className="w-fit" sx={{ borderBottom: 1, borderColor: 'divider' }}>
+                <Box className="min-w-[260px]" sx={{ borderBottom: 1, borderColor: 'divider' }}>
                     <Tabs orientation="vertical" value={value} onChange={handleChange} aria-label="basic tabs example">
                         <Tab style={{ padding: "0px", alignItems: "end", color: "white", textTransform: "none" }} label={
                             <ListItem disablePadding>
