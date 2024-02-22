@@ -17,6 +17,7 @@ import GroupsIcon from '@mui/icons-material/Groups';
 import InformacoesEvento from './InformacoesEvento';
 import Ingressos from './Ingressos';
 import Produtos from './Produtos';
+import ExposicaoDigital from './ExposicaoDigital';
 
 function CustomTabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -73,7 +74,7 @@ export default function SeusEventos({ }) {
                     <Ingressos />
                 </CustomTabPanel>
                 <CustomTabPanel value={value} index={2}>
-                    Exposição Digital
+                    <ExposicaoDigital />
                 </CustomTabPanel>
                 <CustomTabPanel className="pt-10" value={value} index={3}>
                     <Produtos />
