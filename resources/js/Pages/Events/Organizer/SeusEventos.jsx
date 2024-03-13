@@ -14,10 +14,42 @@ import ConfirmationNumberIcon from '@mui/icons-material/ConfirmationNumber';
 import CheckroomIcon from '@mui/icons-material/Checkroom';
 import InfoIcon from '@mui/icons-material/Info';
 import GroupsIcon from '@mui/icons-material/Groups';
-import InformacoesEvento from './InformacoesEvento';
 import Ingressos from './Ingressos';
 import Produtos from './Produtos';
 import ExposicaoDigital from './ExposicaoDigital';
+import InformacoesGerais from './InformacoesGerais';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
+import { useState } from 'react';
+
+export function BasicSelect() {
+    const [age, setAge] = useState("");
+
+    const handleChange = (event) => {
+        setAge(event.target.value);
+    };
+
+    return (
+        <Box sx={{ minWidth: 120, pb: 3}}>
+            <FormControl fullWidth>
+                <InputLabel id="demo-simple-select-label">Selecione o evento</InputLabel>
+                <Select
+                    labelId="demo-simple-select-label"
+                    id="demo-simple-select"
+                    value={age}
+                    label="Selecione o evento"
+                    onChange={handleChange}
+                >
+                    <MenuItem value={10}>Churrascada</MenuItem>
+                    <MenuItem value={20}>Costelada</MenuItem>
+                    <MenuItem value={30}>Shopping Jardim das Américas</MenuItem>
+                </Select>
+            </FormControl>
+        </Box>
+    );
+}
 
 function CustomTabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -54,7 +86,7 @@ function a11yProps(index) {
 
 export default function SeusEventos({ }) {
 
-    const [value, setValue] = React.useState(0);
+    const [value, setValue] = useState(0);
 
     const handleChange = (event, newValue) => {
         setValue(newValue);
@@ -66,9 +98,10 @@ export default function SeusEventos({ }) {
             sx={{ flexGrow: 1, bgcolor: 'background.default', p: 3 }}
         >
             <Toolbar />
+            <BasicSelect></BasicSelect>
             <Box className="flex justify-end" sx={{ width: '100%' }}>
                 <CustomTabPanel className="pt-10" value={value} index={0}>
-                    <InformacoesEvento />
+                    <InformacoesGerais />
                 </CustomTabPanel>
                 <CustomTabPanel className="pt-10" value={value} index={1}>
                     <Ingressos />

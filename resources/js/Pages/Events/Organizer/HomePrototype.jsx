@@ -6,7 +6,7 @@ import Footer from './Footer';
 import Produtos from './Produtos';
 import LogosDG from './LogosDG';
 import Sidebar from './Sidebar';
-import InformacoesEvento from './InformacoesEvento';
+import InformacoesEvento from './InformacoesGerais';
 import Ingressos from './Ingressos';
 
 export default function HomePrototype({ }) {

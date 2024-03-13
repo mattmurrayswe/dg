@@ -1,7 +1,7 @@
 import * as React from 'react';
 import InputsEvento from './InputsEvento';
 
-export default function InformacoesEvento({ }) {
+export default function InformacoesGerais({ }) {
 
     const imgDivulgacao = '/image/events/jdm/divulgacao-1.jpeg';
 
