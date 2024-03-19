@@ -39,7 +39,20 @@
 
                 <div class="mt-16">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+                        <a href="{{ route('jdmexperience') }}" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
+                            <div>
+                                <div class="h-20 w-20 flex items-center justify-center rounded-full">
+                                    <img src="{{URL::asset('/image/logos-font-fasten/events.png')}}" alt="profile Pic" height="160" width="160">
+                                </div>
 
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. Events</h2>
+
+                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                                    Organize seus eventos automotivos. Emissão de ingressos, gateway de pagamentos, estatísticas dos seus eventos e disparos de campanhas de marketing.
+                                </p>
+                            </div>
+                        </a>
+                        
                         <a href="{{ route('deck') }}" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                             <div>
                                 <div class="h-20 w-20 flex items-center justify-center rounded-full">
@@ -68,20 +81,6 @@
                             </div>
 
                         </a> --}}
-                        <a href="{{ route('jdmexperience') }}" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-20 w-20 flex items-center justify-center rounded-full">
-                                    <img src="{{URL::asset('/image/logos-font-fasten/events.png')}}" alt="profile Pic" height="160" width="160">
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. Events</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Organize seus eventos automotivos. Emissão de ingressos, gateway de pagamentos, estatísticas dos seus eventos e disparos de campanhas de marketing.
-                                </p>
-                            </div>
-
-                        </a>
 
                         <a class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                             <div>
