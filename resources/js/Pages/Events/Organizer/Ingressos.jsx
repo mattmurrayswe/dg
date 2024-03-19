@@ -11,228 +11,62 @@ export default function Ingressos({ }) {
     const imgDivulgacao = '/image/events/jdm/divulgacao-1.jpeg';
 
     return (
-        <div className='flex flex-wrap justify-center gap-6'>
-                <Card sx={{ minWidth: 275 }}>
+        <div className='flex flex-wrap justify-start gap-6 w-full'>
+                <Card sx={{ width: 275 }}>
                     <CardContent>
                         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                            Word of the Day
+                            Visitante
                         </Typography>
-                        <Typography variant="h5" component="div">
-                            benevolent
+                        <Typography sx={{ fontSize: 14 }} component="div">
+                            Visitante
                         </Typography>
                         <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                            adjective
+                            R$ 59,00
                         </Typography>
                         <Typography variant="body2">
-                            well meaning and kindly.
-                            <br />
-                            {'"a benevolent smile"'}
+                            Almoço, acesso à exposição e demais atrações.
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <Button size="small">Learn More</Button>
+                        <Button size="small">200</Button>
                     </CardActions>
                 </Card>
-                <Card sx={{ minWidth: 275 }}>
+                <Card sx={{ width: 275 }}>
                     <CardContent>
                         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                            Word of the Day
+                            Expositor
                         </Typography>
-                        <Typography variant="h5" component="div">
-                            benevolent
+                        <Typography sx={{ fontSize: 14 }} component="div">
+                            Expositor - Carro + Motorista
                         </Typography>
                         <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                            adjective
+                            R$ 79,00
                         </Typography>
                         <Typography variant="body2">
-                            well meaning and kindly.
-                            <br />
-                            {'"a benevolent smile"'}
+                            Direito à exposição de um veículo e almoço.
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <Button size="small">Learn More</Button>
+                        <Button size="small">50</Button>
                     </CardActions>
                 </Card>
-                <Card sx={{ minWidth: 275 }}>
+                <Card sx={{ width: 275 }}>
                     <CardContent>
                         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                            Word of the Day
+                            Patrocinador
                         </Typography>
-                        <Typography variant="h5" component="div">
-                            benevolent
+                        <Typography sx={{ fontSize: 14 }} component="div">
+                            Patrocinador -  Carro + Motorista
                         </Typography>
                         <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                            adjective
+                            R$ 79,00
                         </Typography>
                         <Typography variant="body2">
-                            well meaning and kindly.
-                            <br />
-                            {'"a benevolent smile"'}
+                            Direito à divulgação de sua marca nos recursos visuais do evento.
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <Button size="small">Learn More</Button>
-                    </CardActions>
-                </Card>                <Card sx={{ minWidth: 275 }}>
-                    <CardContent>
-                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                            Word of the Day
-                        </Typography>
-                        <Typography variant="h5" component="div">
-                            benevolent
-                        </Typography>
-                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                            adjective
-                        </Typography>
-                        <Typography variant="body2">
-                            well meaning and kindly.
-                            <br />
-                            {'"a benevolent smile"'}
-                        </Typography>
-                    </CardContent>
-                    <CardActions>
-                        <Button size="small">Learn More</Button>
-                    </CardActions>
-                </Card>                <Card sx={{ minWidth: 275 }}>
-                    <CardContent>
-                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                            Word of the Day
-                        </Typography>
-                        <Typography variant="h5" component="div">
-                            benevolent
-                        </Typography>
-                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                            adjective
-                        </Typography>
-                        <Typography variant="body2">
-                            well meaning and kindly.
-                            <br />
-                            {'"a benevolent smile"'}
-                        </Typography>
-                    </CardContent>
-                    <CardActions>
-                        <Button size="small">Learn More</Button>
-                    </CardActions>
-                </Card>                <Card sx={{ minWidth: 275 }}>
-                    <CardContent>
-                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                            Word of the Day
-                        </Typography>
-                        <Typography variant="h5" component="div">
-                            benevolent
-                        </Typography>
-                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                            adjective
-                        </Typography>
-                        <Typography variant="body2">
-                            well meaning and kindly.
-                            <br />
-                            {'"a benevolent smile"'}
-                        </Typography>
-                    </CardContent>
-                    <CardActions>
-                        <Button size="small">Learn More</Button>
-                    </CardActions>
-                </Card>                <Card sx={{ minWidth: 275 }}>
-                    <CardContent>
-                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                            Word of the Day
-                        </Typography>
-                        <Typography variant="h5" component="div">
-                            benevolent
-                        </Typography>
-                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                            adjective
-                        </Typography>
-                        <Typography variant="body2">
-                            well meaning and kindly.
-                            <br />
-                            {'"a benevolent smile"'}
-                        </Typography>
-                    </CardContent>
-                    <CardActions>
-                        <Button size="small">Learn More</Button>
-                    </CardActions>
-                </Card>                <Card sx={{ minWidth: 275 }}>
-                    <CardContent>
-                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                            Word of the Day
-                        </Typography>
-                        <Typography variant="h5" component="div">
-                            benevolent
-                        </Typography>
-                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                            adjective
-                        </Typography>
-                        <Typography variant="body2">
-                            well meaning and kindly.
-                            <br />
-                            {'"a benevolent smile"'}
-                        </Typography>
-                    </CardContent>
-                    <CardActions>
-                        <Button size="small">Learn More</Button>
-                    </CardActions>
-                </Card>                <Card sx={{ minWidth: 275 }}>
-                    <CardContent>
-                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                            Word of the Day
-                        </Typography>
-                        <Typography variant="h5" component="div">
-                            benevolent
-                        </Typography>
-                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                            adjective
-                        </Typography>
-                        <Typography variant="body2">
-                            well meaning and kindly.
-                            <br />
-                            {'"a benevolent smile"'}
-                        </Typography>
-                    </CardContent>
-                    <CardActions>
-                        <Button size="small">Learn More</Button>
-                    </CardActions>
-                </Card>                <Card sx={{ minWidth: 275 }}>
-                    <CardContent>
-                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                            Word of the Day
-                        </Typography>
-                        <Typography variant="h5" component="div">
-                            benevolent
-                        </Typography>
-                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                            adjective
-                        </Typography>
-                        <Typography variant="body2">
-                            well meaning and kindly.
-                            <br />
-                            {'"a benevolent smile"'}
-                        </Typography>
-                    </CardContent>
-                    <CardActions>
-                        <Button size="small">Learn More</Button>
-                    </CardActions>
-                </Card>                <Card sx={{ minWidth: 275 }}>
-                    <CardContent>
-                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                            Word of the Day
-                        </Typography>
-                        <Typography variant="h5" component="div">
-                            benevolent
-                        </Typography>
-                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                            adjective
-                        </Typography>
-                        <Typography variant="body2">
-                            well meaning and kindly.
-                            <br />
-                            {'"a benevolent smile"'}
-                        </Typography>
-                    </CardContent>
-                    <CardActions>
-                        <Button size="small">Learn More</Button>
+                        <Button size="small">50</Button>
                     </CardActions>
                 </Card>
         </div>
