@@ -103,7 +103,7 @@ export default function SeusEventos({ }) {
                 <CustomTabPanel className="pt-10" value={value} index={0}>
                     <InformacoesGerais />
                 </CustomTabPanel>
-                <CustomTabPanel className="pt-10" value={value} index={1}>
+                <CustomTabPanel className="pt-10 w-full" value={value} index={1}>
                     <Ingressos />
                 </CustomTabPanel>
                 <CustomTabPanel value={value} index={2}>
