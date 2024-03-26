@@ -28,7 +28,7 @@ export default function Ingressos({ }) {
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <Button size="small">200</Button>
+                        <Button size="small">52/200</Button>
                     </CardActions>
                 </Card>
                 <Card sx={{ width: 275 }}>
@@ -47,7 +47,7 @@ export default function Ingressos({ }) {
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <Button size="small">50</Button>
+                        <Button size="small">25/50</Button>
                     </CardActions>
                 </Card>
                 <Card sx={{ width: 275 }}>
@@ -66,7 +66,7 @@ export default function Ingressos({ }) {
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <Button size="small">50</Button>
+                        <Button size="small">10/20</Button>
                     </CardActions>
                 </Card>
         </div>
