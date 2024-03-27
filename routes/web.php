@@ -53,6 +53,14 @@ Route::get('/events/organizer/prototype', function () {
     return Inertia::render('Events/Organizer/HomePrototype');
 })->name('organizer-prototype');
 
+Route::get('/events/blade', function () {
+    return view('events');
+})->name('events-blade');
+
+Route::get('/events', function () {
+    return Inertia::render('Events/Home');
+})->name('events');
+
 Route::get('/events/organizer', function () {
     return Inertia::render('Events/Organizer/Home');
 })->name('organizer');

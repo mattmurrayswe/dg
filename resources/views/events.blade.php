@@ -33,19 +33,20 @@
             @endif -->
 
             <div class="max-w-7xl mx-auto p-6 lg:p-8">
-                <div class="flex justify-center mt-16">
-                    <img src="{{URL::asset('/image/dg-fasten.png')}}" alt="profile Pic" height="200" width="200">
-                </div>
+                <div class="flex justify-center items-center">
+                    <div>
+                        <img src="{{URL::asset('/image/dg-fasten.png')}}" alt="profile Pic" width="200">
+                    </div>
+                    <p class="dark:text-white h-6">|</p>
+                    <img src="{{URL::asset('/image/logos-font-fasten/events.png')}}" alt="profile Pic"  width="150">
+                </div>                
 
                 <div class="mt-16">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-                        <a href="{{ route('events') }}" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
+                        <a href="{{ route('jdmexperience') }}" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                             <div>
-                                <div class="h-20 w-20 flex items-center justify-center rounded-full">
-                                    <img src="{{URL::asset('/image/logos-font-fasten/events.png')}}" alt="profile Pic" height="160" width="160">
-                                </div>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. Events</h2>
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Área do Visitante</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
                                     Organize seus eventos automotivos. Emissão de ingressos, gateway de pagamentos, estatísticas dos seus eventos e disparos de campanhas de marketing.
@@ -55,11 +56,8 @@
                         
                         <a href="{{ route('deck') }}" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                             <div>
-                                <div class="h-20 w-20 flex items-center justify-center rounded-full">
-                                    <img src="{{URL::asset('/image/logos-font-fasten/duels.png')}}" alt="profile Pic" height="160" width="160">
-                                </div>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. Duels</h2>
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Área do Organizador</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
                                     Plataforma de duelos de perfis automotivos com ranqueamento mundial e eventos de spots diários. Crie sua garagem, aumente sua coleção de spots e monetize seu perfil.
@@ -67,95 +65,7 @@
                             </div>
 
                         </a>
-                        {{-- <a href="{{ route('club') }}" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-20 w-20 flex items-center justify-center rounded-full">
-                                    <img src="{{URL::asset('/image/logos-font-fasten/club.png')}}" alt="profile Pic" height="160" width="160">
-                                </div>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. Club</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Em meio à cena automotiva de Curitiba, os visionários Renato Carneiro e Davi Muniz fundaram o Club para reunir proprietários e promover encontros de superesportivos.
-                                </p>
-                            </div>
-
-                        </a> --}}
-
-                        <a class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-20 w-20 flex items-center justify-center rounded-full">
-                                    <img src="{{URL::asset('/image/logos-font-fasten/instastore.png')}}" alt="profile Pic" height="160" width="160">
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. InstaStore</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Monetize seu Instagram ao receber uma loja de produtos dedicados ao seu projeto automotivo. Cuidamos de toda infraestrutura de vendas, preocupe-se apenas em crescer seu Instagram e faturar.
-                                </p>
-                            </div>
-
-                        </a>
-
-                        <a class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-20 w-20 flex items-center justify-center rounded-full">
-                                    <img src="{{URL::asset('/image/logos-font-fasten/store.png')}}" alt="profile Pic" height="160" width="160">
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. Store</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Dísponivel em e-Commerce, conferências de software, e em eventos automotivos. Pôsteres, decorações, canecas, e destaque para nossas camisetas. O estande do GearHead e do Dev em seu evento favorito.
-                                </p>
-                            </div>
-
-                        </a>
-
-                        <a class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-20 w-20 flex items-center justify-center rounded-full">
-                                    <img src="{{URL::asset('/image/logos-font-fasten/e-mistura.png')}}" alt="profile Pic" height="160" width="160">
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. e-Mistura</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                O aplicativo de cálculo de mistura de Etanol e Gasolina mais utilizado do mercado! Desenvolvido pelo mestre do mobile Diego Palma Navarro. O e-Mistura é o líder em downloads na GooglePlay!
-                                </p>
-                            </div>
-
-                        </a>
-
-                        <a class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-20 w-20 flex items-center justify-center rounded-full">
-                                    <img src="{{URL::asset('/image/logos-font-fasten/devbanner.png')}}" alt="profile Pic" height="160" width="160">
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. DevBannerLinkedin</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                Você é Dev? Destaque-se nos processos seletivos mais disputados do mercado ao utilizar nosso serviço de geração de banner para Linkedin. Nosso produto é o pioneiro da categoria e o que possui mais unidades vendidas.
-                                </p>
-                            </div>
-
-                        </a>
-
-                        <a class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-20 w-20 flex items-center justify-center rounded-full">
-                                    <img src="{{URL::asset('/image/logos-font-fasten/softhouse.png')}}" alt="profile Pic" height="160" width="160">
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">dg. SoftwareHouse</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                Precisa desenvolver Software? Nossa Software House utiliza as práticas mais modernas do mercado. Scrum, Laravel, React, Tailwind e Cloud AWS. Desenvolveremos seu produto/serviço com a mesma paixão que desenvolvemos os nossos.
-                                </p>
-                            </div>
-
-                        </a>
                     </div>
                 </div>
 

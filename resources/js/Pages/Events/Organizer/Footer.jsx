@@ -9,8 +9,10 @@ export default function Footer({ }) {
         <div className='flex justify-center pb-12 pt-32 w-full'>
             <div className='flex justify-center w-full'>
                 <div className='flex items-center md:ml-16 lg:ml-16 xl:ml-16'>
-                    <img src={dgFastenComBr} alt="" height="60" className='mr-4' />
-                    <p className='text-white text-[40px] m-0 mr-6'>|</p>
+                    <div className='w-[120px]'>
+                        <img src={dgFastenComBr} alt=""/>
+                    </div>
+                    <p className='text-white text-[40px] m-0 mx-6'>|</p>
                 </div>
                 <div className='w-fit text-center'>
                     <Typography className='flex justify-start w-fit text-start' style={{ color : "white" }} variant="subtitle2" color="gray" gutterBottom>
