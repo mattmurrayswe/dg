@@ -19,3 +19,10 @@ npm run build dentro do container
 
 (conflito de http em https no Vite)
 mv /public/hot /public/backup-hot
+
+Certbot Renew
+sudo su
+cd /var/www/html/dg
+docker-compose stop
+certbot renew
+sudo kill `sudo lsof -t -i:443`
