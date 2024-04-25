@@ -17,6 +17,10 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
+    return Inertia::render('Beta/Home');
+});
+
+Route::get('/portfolio', function () {
     return view('welcome');
 });
 

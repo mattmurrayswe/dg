@@ -4,6 +4,7 @@ import { Typography } from '@mui/material';
 export default function Footer({ }) {
 
     const dgFastenComBr = '/image/logos-font-fasten/dg-com-br.png';
+    const eventsT = '/image/logos-font-fasten/events.png';
     
     return (
         <div className='flex justify-center pb-12 pt-32 w-full'>
@@ -13,6 +14,7 @@ export default function Footer({ }) {
                         <img src={dgFastenComBr} alt=""/>
                     </div>
                     <p className='text-white text-[40px] m-0 mx-6'>|</p>
+
                 </div>
                 <div className='w-fit text-center'>
                     <Typography className='flex justify-start w-fit text-start' style={{ color : "white" }} variant="subtitle2" color="gray" gutterBottom>
