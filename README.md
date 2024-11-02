@@ -25,4 +25,9 @@ sudo su
 cd /var/www/html/dg
 docker-compose stop
 certbot renew
+ctrl + D
+cd /var/www/html/dg
 sudo kill `sudo lsof -t -i:443`
+./vendor/bin/sail up
+docker-compose exec laravel.test bash
+npm run build
